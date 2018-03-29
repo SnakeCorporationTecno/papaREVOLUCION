@@ -29,7 +29,7 @@ namespace Beta3_WS_PROYECTO_FINAL.DAO
         }
         public int ModificarDivision(cls_divisionBO obj_div)
         {
-            string ComandoSQL = string.Format("UPDATE division SET Nombre='{1}', Tipo_division='{2}'",obj_div.Id_division,obj_div.Nombre_division,obj_div.Tipo_division);
+            string ComandoSQL = string.Format("UPDATE division SET Nombre='{1}', Tipo_division='{2}' WHERE iddivision= {0}",obj_div.Id_division,obj_div.Nombre_division,obj_div.Tipo_division);
                 return Miconexion.EjecutarComando(ComandoSQL);
         }
         public int EliminarDivision(cls_divisionBO obj_div)
