@@ -85,6 +85,7 @@
     <Compile Include="BO\BO_Admin\cls_torneo_instalacionBO.cs" />
     <Compile Include="BO\cls_usuarioBO.cs" />
     <Compile Include="DAO\ClsUsuariO_DAO.cs" />
+    <Compile Include="DAO\cls_arbitroDAO.cs" />
     <Compile Include="DAO\cls_conexion.cs" />
     <Compile Include="DAO\cls_personaDAO.cs" />
     <Compile Include="GUI\frm_principal.cs">

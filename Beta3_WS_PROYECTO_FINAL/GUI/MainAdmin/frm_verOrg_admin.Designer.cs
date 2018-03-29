@@ -222,6 +222,7 @@
             this.btn_reOrg_vOrg.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_reOrg_vOrg.Textcolor = System.Drawing.Color.White;
             this.btn_reOrg_vOrg.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_reOrg_vOrg.Click += new System.EventHandler(this.btn_reOrg_vOrg_Click);
             // 
             // dataGridView1
             // 

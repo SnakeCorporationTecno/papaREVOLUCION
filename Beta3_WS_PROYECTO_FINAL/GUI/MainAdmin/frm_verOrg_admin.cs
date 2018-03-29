@@ -21,5 +21,10 @@ namespace Beta3_WS_PROYECTO_FINAL.GUI.MainAdmin
         {
             this.Hide();
         }
+
+        private void btn_reOrg_vOrg_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
