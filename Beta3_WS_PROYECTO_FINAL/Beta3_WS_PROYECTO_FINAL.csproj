@@ -87,6 +87,7 @@
     <Compile Include="DAO\ClsUsuariO_DAO.cs" />
     <Compile Include="DAO\cls_arbitroDAO.cs" />
     <Compile Include="DAO\cls_conexion.cs" />
+    <Compile Include="DAO\cls_divisionDAO.cs" />
     <Compile Include="DAO\cls_personaDAO.cs" />
     <Compile Include="GUI\frm_principal.cs">
       <SubType>Form</SubType>
