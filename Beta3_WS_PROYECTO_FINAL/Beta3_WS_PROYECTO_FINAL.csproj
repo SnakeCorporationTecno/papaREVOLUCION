@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3">
-      <HintPath>..\..\..\..\Documents\referencias\Bunifu_UI_v1.5.3.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
@@ -42,7 +42,7 @@
     <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="MySql.Data">
-      <HintPath>..\..\Clase27_febrero\MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\programacion 2 miniproyecto\programacion 2\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -60,7 +60,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="TransControl_src">
-      <HintPath>..\..\..\..\Documents\referencias\TransControl_src.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\PROYECTO_INTEGRADOR\beta3\Beta 4.2\TransControl_src.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +123,12 @@
     </Compile>
     <Compile Include="GUI\frm_registro_jugador.Designer.cs">
       <DependentUpon>frm_registro_jugador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\frm_AgregarAbitro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\frm_AgregarAbitro.Designer.cs">
+      <DependentUpon>frm_AgregarAbitro.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\MainAdmin\frm_mainAdministrador.cs">
       <SubType>Form</SubType>
@@ -257,6 +263,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_registro_jugador.resx">
       <DependentUpon>frm_registro_jugador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\frm_AgregarAbitro.resx">
+      <DependentUpon>frm_AgregarAbitro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\MainAdmin\frm_mainAdministrador.resx">
       <DependentUpon>frm_mainAdministrador.cs</DependentUpon>
