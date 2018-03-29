@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A44227A2-3469-4E87-B734-8BCC0F180165}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Beta3_WS_PROYECTO_FINAL</RootNamespace>
+    <AssemblyName>Beta3_WS_PROYECTO_FINAL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\..\..\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\UTM\2do Cuatrimestre\Programacion\2do PARCIAL\Sometime new\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TransControl_src">
+      <HintPath>..\..\..\TransControl_src.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BO\BO_Admin\cls_arbitroBO.cs" />
+    <Compile Include="BO\BO_Admin\cls_carreraBO.cs" />
+    <Compile Include="BO\BO_Admin\cls_convocatoriaBO.cs" />
+    <Compile Include="BO\cls_divisionBO.cs" />
+    <Compile Include="BO\cls_equipoBO.cs" />
+    <Compile Include="BO\cls_equipo_partido.cs" />
+    <Compile Include="BO\BO_Admin\cls_estadisticaBO.cs" />
+    <Compile Include="BO\BO_Admin\cls_estadisticas_equipoBO.cs" />
+    <Compile Include="BO\BO_Admin\cls_estadisticas_jugadorBO.cs" />
+    <Compile Include="BO\BO_Admin\cls_estadistica_partidoBO.cs" />
+    <Compile Include="BO\Cls_estatica\Cls_estaticaUsuario.cs" />
+    <Compile Include="BO\BO_Admin\cls_instalacionesBO.cs" />
+    <Compile Include="BO\BO_Admin\cls_instalacion_partidosBO.cs" />
+    <Compile Include="BO\cls_jugadoresBO.cs" />
+    <Compile Include="BO\BO_Admin\cls_partidoBO.cs" />
+    <Compile Include="BO\cls_perfilBO.cs" />
+    <Compile Include="BO\BO_Admin\cls_personaBO.cs" />
+    <Compile Include="BO\BO_Admin\cls_torneoBO.cs" />
+    <Compile Include="BO\BO_Admin\cls_torneo_instalacionBO.cs" />
+    <Compile Include="BO\cls_usuarioBO.cs" />
+    <Compile Include="DAO\ClsUsuariO_DAO.cs" />
+    <Compile Include="DAO\cls_conexion.cs" />
+    <Compile Include="DAO\cls_personaDAO.cs" />
+    <Compile Include="GUI\frm_principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_principal.Designer.cs">
+      <DependentUpon>frm_principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_registroPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_registroPersona.Designer.cs">
+      <DependentUpon>frm_registroPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_registroTorneo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_registroTorneo.Designer.cs">
+      <DependentUpon>frm_registroTorneo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_registro_convocatoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_registro_convocatoria.Designer.cs">
+      <DependentUpon>frm_registro_convocatoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_registro_jugador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_registro_jugador.Designer.cs">
+      <DependentUpon>frm_registro_jugador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\frm_mainAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\frm_mainAdministrador.Designer.cs">
+      <DependentUpon>frm_mainAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\frm_verAdmin_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\frm_verAdmin_admin.Designer.cs">
+      <DependentUpon>frm_verAdmin_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\frm_verDT_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\frm_verDT_admin.Designer.cs">
+      <DependentUpon>frm_verDT_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\frm_verEquipos_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\frm_verEquipos_admin.Designer.cs">
+      <DependentUpon>frm_verEquipos_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\frm_verOrg_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\frm_verOrg_admin.Designer.cs">
+      <DependentUpon>frm_verOrg_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\RegAdmin\frm_RegAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\RegAdmin\frm_RegAdmin.Designer.cs">
+      <DependentUpon>frm_RegAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\RegAdmin\Reg_AdminUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\RegAdmin\Reg_AdminUs.Designer.cs">
+      <DependentUpon>Reg_AdminUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\RegDT\frm_RegDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\RegDT\frm_RegDT.Designer.cs">
+      <DependentUpon>frm_RegDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\RegDT\frm_RegDT_US.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\RegDT\frm_RegDT_US.Designer.cs">
+      <DependentUpon>frm_RegDT_US.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\RegOrg\frm_RegOrg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\RegOrg\frm_RegOrg.Designer.cs">
+      <DependentUpon>frm_RegOrg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\RegOrg\frm_RegOrg_US.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\RegOrg\frm_RegOrg_US.Designer.cs">
+      <DependentUpon>frm_RegOrg_US.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC\UC_calendario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC\UC_calendario.Designer.cs">
+      <DependentUpon>UC_calendario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC\UC_convocatorias.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC\UC_convocatorias.Designer.cs">
+      <DependentUpon>UC_convocatorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\UC_cuenta_administrador.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\UC_cuenta_administrador.Designer.cs">
+      <DependentUpon>UC_cuenta_administrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC\UC_cuenta_DT_ADMIN.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC\UC_cuenta_DT_ADMIN.Designer.cs">
+      <DependentUpon>UC_cuenta_DT_ADMIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC\UC_equipos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC\UC_equipos.Designer.cs">
+      <DependentUpon>UC_equipos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC\UC_estadisticas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC\UC_estadisticas.Designer.cs">
+      <DependentUpon>UC_estadisticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC\UC_inicio.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC\UC_inicio.Designer.cs">
+      <DependentUpon>UC_inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC\UC_partidos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC\UC_partidos.Designer.cs">
+      <DependentUpon>UC_partidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\frm_principal.resx">
+      <DependentUpon>frm_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_registroPersona.resx">
+      <DependentUpon>frm_registroPersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_registroTorneo.resx">
+      <DependentUpon>frm_registroTorneo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_registro_convocatoria.resx">
+      <DependentUpon>frm_registro_convocatoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_registro_jugador.resx">
+      <DependentUpon>frm_registro_jugador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\frm_mainAdministrador.resx">
+      <DependentUpon>frm_mainAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\frm_verAdmin_admin.resx">
+      <DependentUpon>frm_verAdmin_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\frm_verDT_admin.resx">
+      <DependentUpon>frm_verDT_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\frm_verEquipos_admin.resx">
+      <DependentUpon>frm_verEquipos_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\frm_verOrg_admin.resx">
+      <DependentUpon>frm_verOrg_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\RegAdmin\frm_RegAdmin.resx">
+      <DependentUpon>frm_RegAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\RegAdmin\Reg_AdminUs.resx">
+      <DependentUpon>Reg_AdminUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\RegDT\frm_RegDT.resx">
+      <DependentUpon>frm_RegDT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\RegDT\frm_RegDT_US.resx">
+      <DependentUpon>frm_RegDT_US.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\RegOrg\frm_RegOrg.resx">
+      <DependentUpon>frm_RegOrg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\RegOrg\frm_RegOrg_US.resx">
+      <DependentUpon>frm_RegOrg_US.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC\UC_calendario.resx">
+      <DependentUpon>UC_calendario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC\UC_convocatorias.resx">
+      <DependentUpon>UC_convocatorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\UC_cuenta_administrador.resx">
+      <DependentUpon>UC_cuenta_administrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC\UC_cuenta_DT_ADMIN.resx">
+      <DependentUpon>UC_cuenta_DT_ADMIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC\UC_equipos.resx">
+      <DependentUpon>UC_equipos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC\UC_estadisticas.resx">
+      <DependentUpon>UC_estadisticas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC\UC_inicio.resx">
+      <DependentUpon>UC_inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC\UC_partidos.resx">
+      <DependentUpon>UC_partidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GUI\MainDT\" />
+    <Folder Include="GUI\MainOrg\" />
+    <Folder Include="GUI\MainPublic\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
