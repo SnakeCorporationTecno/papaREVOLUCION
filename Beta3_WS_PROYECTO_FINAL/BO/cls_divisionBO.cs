@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Beta3_WS_PROYECTO_FINAL.BO
 {
-    class cls_divisionBO
+   public class cls_divisionBO
     {
         private int id_division;
         private string nombre_division;

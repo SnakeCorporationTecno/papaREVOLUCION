@@ -15,8 +15,8 @@ namespace Beta3_WS_PROYECTO_FINAL.DAO
         {
             string servidor = "localhost";
             string userid = "root";
-            string pass = "11mayo1999";
-            string bd = "proyectointegradortest";
+            string pass = "Shigeno@24";
+            string bd = "pruebas28marzode18";
             conn = new MySqlConnection("Server=" + servidor + "; User ID=" + userid + "; Persist Security info=true; password=" + pass + "; Database=" + bd);
             comando = new MySqlCommand();
         }
