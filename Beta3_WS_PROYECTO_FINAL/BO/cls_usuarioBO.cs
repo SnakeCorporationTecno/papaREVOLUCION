@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Beta3_WS_PROYECTO_FINAL.BO
 {
-    class cls_usuarioBO
+    public class cls_usuarioBO
     {
         private int id_usuario;
         private string username;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Beta3_WS_PROYECTO_FINAL.BO
 {
-    class cls_carreraBO
+    public class cls_carreraBO
     {
         private int id_carrera;
         private string nombre_carrera;

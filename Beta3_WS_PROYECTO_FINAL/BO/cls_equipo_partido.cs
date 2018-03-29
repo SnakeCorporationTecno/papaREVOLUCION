@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Beta3_WS_PROYECTO_FINAL.BO
 {
-    class cls_equipo_partido
+    public class cls_equipo_partido
     {
         private int id_equipo;
         private int id_partido;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Beta3_WS_PROYECTO_FINAL.BO
 {
-    class cls_estadistica_partidoBO
+    public class cls_estadistica_partidoBO
     {
         private int estadistica;
         private int partido;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Beta3_WS_PROYECTO_FINAL.BO
 {
-    class cls_jugadoresBO
+    public class cls_jugadoresBO
     {
         private int matricula_jugadorM;
         private string nombre_jugador;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Beta3_WS_PROYECTO_FINAL.BO
 {
-    class cls_estadisticaBO
+    public class cls_estadisticaBO
     {
         private int id_estadistica;
         private int tot_goles;

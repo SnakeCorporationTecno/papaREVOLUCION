@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Beta3_WS_PROYECTO_FINAL.BO
 {
-    class cls_torneo_instalacionBO
+    public class cls_torneo_instalacionBO
     {
         private int id_instalacion;
         private int id_torneo;

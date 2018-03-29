@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Beta3_WS_PROYECTO_FINAL.BO
 {
-    class cls_convocatoriaBO
+    public class cls_convocatoriaBO
     {
         private int id_convocatoria;
         private string nombre_convocatoria;
