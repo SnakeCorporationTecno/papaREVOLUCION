@@ -34,12 +34,12 @@
             this.txt_nombreArbitro = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txt_apePat_Arbitro = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label3 = new System.Windows.Forms.Label();
-            this.bunifuMetroTextbox2 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txt_apeMat_Arbitro = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rbn_hombre_arbitro = new System.Windows.Forms.RadioButton();
+            this.rbn_mujer_Arbitro = new System.Windows.Forms.RadioButton();
             this.btn_cancelarpersona_registroArb = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_registrarpersona_registroArb = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -98,22 +98,22 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Apellido paterno";
             // 
-            // bunifuMetroTextbox1
+            // txt_apePat_Arbitro
             // 
-            this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.DeepPink;
-            this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.MediumVioletRed;
-            this.bunifuMetroTextbox1.BorderThickness = 3;
-            this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox1.isPassword = false;
-            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(27, 120);
-            this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
-            this.bunifuMetroTextbox1.Size = new System.Drawing.Size(370, 37);
-            this.bunifuMetroTextbox1.TabIndex = 3;
-            this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_apePat_Arbitro.BorderColorFocused = System.Drawing.Color.DeepPink;
+            this.txt_apePat_Arbitro.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_apePat_Arbitro.BorderColorMouseHover = System.Drawing.Color.MediumVioletRed;
+            this.txt_apePat_Arbitro.BorderThickness = 3;
+            this.txt_apePat_Arbitro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_apePat_Arbitro.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_apePat_Arbitro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_apePat_Arbitro.isPassword = false;
+            this.txt_apePat_Arbitro.Location = new System.Drawing.Point(27, 120);
+            this.txt_apePat_Arbitro.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_apePat_Arbitro.Name = "txt_apePat_Arbitro";
+            this.txt_apePat_Arbitro.Size = new System.Drawing.Size(370, 37);
+            this.txt_apePat_Arbitro.TabIndex = 3;
+            this.txt_apePat_Arbitro.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label3
             // 
@@ -125,27 +125,27 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Apellido materno";
             // 
-            // bunifuMetroTextbox2
+            // txt_apeMat_Arbitro
             // 
-            this.bunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.DeepPink;
-            this.bunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.MediumVioletRed;
-            this.bunifuMetroTextbox2.BorderThickness = 3;
-            this.bunifuMetroTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox2.isPassword = false;
-            this.bunifuMetroTextbox2.Location = new System.Drawing.Point(27, 199);
-            this.bunifuMetroTextbox2.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox2.Name = "bunifuMetroTextbox2";
-            this.bunifuMetroTextbox2.Size = new System.Drawing.Size(370, 37);
-            this.bunifuMetroTextbox2.TabIndex = 5;
-            this.bunifuMetroTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_apeMat_Arbitro.BorderColorFocused = System.Drawing.Color.DeepPink;
+            this.txt_apeMat_Arbitro.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_apeMat_Arbitro.BorderColorMouseHover = System.Drawing.Color.MediumVioletRed;
+            this.txt_apeMat_Arbitro.BorderThickness = 3;
+            this.txt_apeMat_Arbitro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_apeMat_Arbitro.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_apeMat_Arbitro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_apeMat_Arbitro.isPassword = false;
+            this.txt_apeMat_Arbitro.Location = new System.Drawing.Point(27, 199);
+            this.txt_apeMat_Arbitro.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_apeMat_Arbitro.Name = "txt_apeMat_Arbitro";
+            this.txt_apeMat_Arbitro.Size = new System.Drawing.Size(370, 37);
+            this.txt_apeMat_Arbitro.TabIndex = 5;
+            this.txt_apeMat_Arbitro.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.rbn_mujer_Arbitro);
+            this.groupBox1.Controls.Add(this.rbn_hombre_arbitro);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(70, 246);
             this.groupBox1.Name = "groupBox1";
@@ -154,27 +154,27 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Genero";
             // 
-            // radioButton1
+            // rbn_hombre_arbitro
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(31, 37);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(101, 26);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Hombre";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbn_hombre_arbitro.AutoSize = true;
+            this.rbn_hombre_arbitro.Location = new System.Drawing.Point(31, 37);
+            this.rbn_hombre_arbitro.Name = "rbn_hombre_arbitro";
+            this.rbn_hombre_arbitro.Size = new System.Drawing.Size(101, 26);
+            this.rbn_hombre_arbitro.TabIndex = 0;
+            this.rbn_hombre_arbitro.TabStop = true;
+            this.rbn_hombre_arbitro.Text = "Hombre";
+            this.rbn_hombre_arbitro.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbn_mujer_Arbitro
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(162, 37);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(78, 26);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Mujer";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbn_mujer_Arbitro.AutoSize = true;
+            this.rbn_mujer_Arbitro.Location = new System.Drawing.Point(162, 37);
+            this.rbn_mujer_Arbitro.Name = "rbn_mujer_Arbitro";
+            this.rbn_mujer_Arbitro.Size = new System.Drawing.Size(78, 26);
+            this.rbn_mujer_Arbitro.TabIndex = 1;
+            this.rbn_mujer_Arbitro.TabStop = true;
+            this.rbn_mujer_Arbitro.Text = "Mujer";
+            this.rbn_mujer_Arbitro.UseVisualStyleBackColor = true;
             // 
             // btn_cancelarpersona_registroArb
             // 
@@ -197,7 +197,7 @@
             this.btn_cancelarpersona_registroArb.IconVisible = true;
             this.btn_cancelarpersona_registroArb.IconZoom = 90D;
             this.btn_cancelarpersona_registroArb.IsTab = false;
-            this.btn_cancelarpersona_registroArb.Location = new System.Drawing.Point(83, 336);
+            this.btn_cancelarpersona_registroArb.Location = new System.Drawing.Point(87, 336);
             this.btn_cancelarpersona_registroArb.Name = "btn_cancelarpersona_registroArb";
             this.btn_cancelarpersona_registroArb.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
             this.btn_cancelarpersona_registroArb.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(96)))), ((int)(((byte)(130)))));
@@ -231,7 +231,7 @@
             this.btn_registrarpersona_registroArb.IconVisible = true;
             this.btn_registrarpersona_registroArb.IconZoom = 90D;
             this.btn_registrarpersona_registroArb.IsTab = false;
-            this.btn_registrarpersona_registroArb.Location = new System.Drawing.Point(221, 336);
+            this.btn_registrarpersona_registroArb.Location = new System.Drawing.Point(225, 336);
             this.btn_registrarpersona_registroArb.Name = "btn_registrarpersona_registroArb";
             this.btn_registrarpersona_registroArb.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
             this.btn_registrarpersona_registroArb.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(198)))), ((int)(((byte)(114)))));
@@ -263,9 +263,9 @@
             this.Controls.Add(this.btn_registrarpersona_registroArb);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.bunifuMetroTextbox2);
+            this.Controls.Add(this.txt_apeMat_Arbitro);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.bunifuMetroTextbox1);
+            this.Controls.Add(this.txt_apePat_Arbitro);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_nombreArbitro);
             this.Controls.Add(this.panel1);
@@ -285,12 +285,12 @@
         private Bunifu.Framework.UI.BunifuElipse frm;
         private Bunifu.Framework.UI.BunifuMetroTextbox txt_nombreArbitro;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rbn_mujer_Arbitro;
+        private System.Windows.Forms.RadioButton rbn_hombre_arbitro;
         private System.Windows.Forms.Label label3;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox2;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_apeMat_Arbitro;
         private System.Windows.Forms.Label label2;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_apePat_Arbitro;
         private System.Windows.Forms.Label label1;
         private Bunifu.Framework.UI.BunifuFlatButton btn_cancelarpersona_registroArb;
         private Bunifu.Framework.UI.BunifuFlatButton btn_registrarpersona_registroArb;
