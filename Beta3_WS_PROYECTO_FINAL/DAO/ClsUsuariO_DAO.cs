@@ -24,9 +24,14 @@ namespace Beta3_WS_PROYECTO_FINAL.DAO
         {
             string sql = string.Format("SELECT * FROM usuario WHERE username='{0}' and contrasena='{1}'", obj.Username, obj.Password);
             return con.EjercutarSentecia(sql);
-
-
         }
+
+        public DataTable InsertarUserPass()
+        {
+            string sql = string.Format("INSERT INTO * from divison");
+            return con.
+        }
+
 
 
 
