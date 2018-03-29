@@ -26,12 +26,11 @@ namespace Beta3_WS_PROYECTO_FINAL.DAO
             return con.EjercutarSentecia(sql);
         }
 
-        public DataTable InsertarUserPass()
+        public int AgregarNuevoUsuario(cls_divisionBO obj_div)
         {
-            string sql = string.Format("INSERT INTO * from divison");
-            return con.
+            string ComandoSQL = string.Format("INSERT INTO division(iddivision,Nombre,Tipo_division) VALUES ({0},'{1}','{2}');", obj_div.Id_division, obj_div.Nombre_division, obj_div.Tipo_division);
+            return Miconexion.EjecutarComando(ComandoSQL);
         }
-
 
 
 
