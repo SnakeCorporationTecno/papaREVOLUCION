@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_verEquipos_admin));
             this.btn_cerrar_VerEquipos = new Bunifu.Framework.UI.BunifuFlatButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -86,15 +85,15 @@
             // 
             // bunifuFlatButton1
             // 
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
+            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
             this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "bunifuFlatButton1";
+            this.bunifuFlatButton1.ButtonText = "Ver equipo";
             this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton1.Iconimage")));
+            this.bunifuFlatButton1.Iconimage = null;
             this.bunifuFlatButton1.Iconimage_right = null;
             this.bunifuFlatButton1.Iconimage_right_Selected = null;
             this.bunifuFlatButton1.Iconimage_Selected = null;
@@ -107,24 +106,24 @@
             this.bunifuFlatButton1.IsTab = false;
             this.bunifuFlatButton1.Location = new System.Drawing.Point(0, -1);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
+            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
             this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton1.selected = false;
             this.bunifuFlatButton1.Size = new System.Drawing.Size(241, 35);
             this.bunifuFlatButton1.TabIndex = 24;
-            this.bunifuFlatButton1.Text = "bunifuFlatButton1";
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton1.Text = "Ver equipo";
+            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuFlatButton2
             // 
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "bunifuFlatButton2";
+            this.bunifuFlatButton2.ButtonText = "Editar equipo";
             this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
@@ -141,28 +140,28 @@
             this.bunifuFlatButton2.IsTab = false;
             this.bunifuFlatButton2.Location = new System.Drawing.Point(240, -1);
             this.bunifuFlatButton2.Name = "bunifuFlatButton2";
-            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton2.selected = false;
             this.bunifuFlatButton2.Size = new System.Drawing.Size(241, 35);
             this.bunifuFlatButton2.TabIndex = 25;
-            this.bunifuFlatButton2.Text = "bunifuFlatButton2";
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton2.Text = "Editar equipo";
+            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuFlatButton3
             // 
-            this.bunifuFlatButton3.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.bunifuFlatButton3.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
+            this.bunifuFlatButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
             this.bunifuFlatButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton3.BorderRadius = 0;
-            this.bunifuFlatButton3.ButtonText = "bunifuFlatButton3";
+            this.bunifuFlatButton3.ButtonText = "Eliminar equipo";
             this.bunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton3.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton3.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton3.Iconimage")));
+            this.bunifuFlatButton3.Iconimage = null;
             this.bunifuFlatButton3.Iconimage_right = null;
             this.bunifuFlatButton3.Iconimage_right_Selected = null;
             this.bunifuFlatButton3.Iconimage_Selected = null;
@@ -175,14 +174,14 @@
             this.bunifuFlatButton3.IsTab = false;
             this.bunifuFlatButton3.Location = new System.Drawing.Point(480, -1);
             this.bunifuFlatButton3.Name = "bunifuFlatButton3";
-            this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
+            this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
             this.bunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton3.selected = false;
             this.bunifuFlatButton3.Size = new System.Drawing.Size(241, 35);
             this.bunifuFlatButton3.TabIndex = 26;
-            this.bunifuFlatButton3.Text = "bunifuFlatButton3";
-            this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton3.Text = "Eliminar equipo";
+            this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
