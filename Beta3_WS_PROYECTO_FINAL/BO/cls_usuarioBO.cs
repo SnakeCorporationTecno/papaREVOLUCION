@@ -11,12 +11,44 @@ namespace Beta3_WS_PROYECTO_FINAL.BO
         private int id_usuario;
         private string username;
         private string password;
-        private int id_perfil; // preguntar si va esto aqui
 
+        public int Id_usuario
+        {
+            get
+            {
+                return id_usuario;
+            }
 
-        public int Id_usuario { get => id_usuario; set => id_usuario = value; }
-        public string Username { get => username; set => username = value; }
-        public string Password { get => password; set => password = value; }
-        public int Id_perfil { get => id_perfil; set => id_perfil = value; }
+            set
+            {
+                id_usuario = value;
+            }
+        }
+
+        public string Username
+        {
+            get
+            {
+                return username;
+            }
+
+            set
+            {
+                username = value;
+            }
+        }
+
+        public string Password
+        {
+            get
+            {
+                return password;
+            }
+
+            set
+            {
+                password = value;
+            }
+        }
     }
 }

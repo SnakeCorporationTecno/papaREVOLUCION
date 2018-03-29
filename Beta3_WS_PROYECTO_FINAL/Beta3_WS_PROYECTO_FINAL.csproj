@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3">
-      <HintPath>..\..\..\..\..\..\..\Bunifu_UI_v1.5.3.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\MyFirstProject\beta 4 ahora si\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
@@ -42,7 +42,7 @@
     <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="MySql.Data">
-      <HintPath>..\..\..\..\UTM\2do Cuatrimestre\Programacion\2do PARCIAL\Sometime new\MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\2do parcial\ABC\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -60,7 +60,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="TransControl_src">
-      <HintPath>..\..\..\TransControl_src.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\MyFirstProject\beta 4 ahora si\TransControl_src.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -79,7 +79,6 @@
     <Compile Include="BO\BO_Admin\cls_instalacion_partidosBO.cs" />
     <Compile Include="BO\cls_jugadoresBO.cs" />
     <Compile Include="BO\BO_Admin\cls_partidoBO.cs" />
-    <Compile Include="BO\cls_perfilBO.cs" />
     <Compile Include="BO\BO_Admin\cls_personaBO.cs" />
     <Compile Include="BO\BO_Admin\cls_torneoBO.cs" />
     <Compile Include="BO\BO_Admin\cls_torneo_instalacionBO.cs" />

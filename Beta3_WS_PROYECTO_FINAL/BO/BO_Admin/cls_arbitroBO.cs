@@ -14,11 +14,69 @@ namespace Beta3_WS_PROYECTO_FINAL.BO
         private string apeMat_arbitro;
         private bool genero_arbitro;
 
-        //conversion a publico
-        public int Id_arbitro { get => id_arbitro; set => id_arbitro = value; }
-        public string Nombre_arbitro { get => nombre_arbitro; set => nombre_arbitro = value; }
-        public string ApePat_arbitro { get => apePat_arbitro; set => apePat_arbitro = value; }
-        public string ApeMat_arbitro { get => apeMat_arbitro; set => apeMat_arbitro = value; }
-        public bool Genero_arbitro { get => genero_arbitro; set => genero_arbitro = value; }
+        public int Id_arbitro
+        {
+            get
+            {
+                return id_arbitro;
+            }
+
+            set
+            {
+                id_arbitro = value;
+            }
+        }
+
+        public string Nombre_arbitro
+        {
+            get
+            {
+                return nombre_arbitro;
+            }
+
+            set
+            {
+                nombre_arbitro = value;
+            }
+        }
+
+        public string ApePat_arbitro
+        {
+            get
+            {
+                return apePat_arbitro;
+            }
+
+            set
+            {
+                apePat_arbitro = value;
+            }
+        }
+
+        public string ApeMat_arbitro
+        {
+            get
+            {
+                return apeMat_arbitro;
+            }
+
+            set
+            {
+                apeMat_arbitro = value;
+            }
+        }
+
+        public bool Genero_arbitro
+        {
+            get
+            {
+                return genero_arbitro;
+            }
+
+            set
+            {
+                genero_arbitro = value;
+            }
+        }
     }
 }

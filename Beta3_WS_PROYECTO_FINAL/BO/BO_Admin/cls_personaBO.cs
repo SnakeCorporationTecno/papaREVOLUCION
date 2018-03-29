@@ -15,18 +15,152 @@ namespace Beta3_WS_PROYECTO_FINAL.BO
         private string correoElect_persona;
         private int telefono_persona;
         private double genero_persona;
+        private int tipo_persona;
+        private int id_usuario;
         private int id_equipo;
         private int id_convocatoria;
 
+        public int Matricula_persona
+        {
+            get
+            {
+                return matricula_persona;
+            }
 
-        public int Matricula_persona { get => matricula_persona; set => matricula_persona = value; }
-        public string Nombre_persona { get => nombre_persona; set => nombre_persona = value; }
-        public string ApePat_persona { get => apePat_persona; set => apePat_persona = value; }
-        public string ApeMar_persona { get => apeMar_persona; set => apeMar_persona = value; }
-        public string CorreoElect_persona { get => correoElect_persona; set => correoElect_persona = value; }
-        public int Telefono_persona { get => telefono_persona; set => telefono_persona = value; }
-        public double Genero_persona { get => genero_persona; set => genero_persona = value; }
-        public int Id_equipo { get => id_equipo; set => id_equipo = value; }
-        public int Id_convocatoria { get => id_convocatoria; set => id_convocatoria = value; }
+            set
+            {
+                matricula_persona = value;
+            }
+        }
+
+        public string Nombre_persona
+        {
+            get
+            {
+                return nombre_persona;
+            }
+
+            set
+            {
+                nombre_persona = value;
+            }
+        }
+
+        public string ApePat_persona
+        {
+            get
+            {
+                return apePat_persona;
+            }
+
+            set
+            {
+                apePat_persona = value;
+            }
+        }
+
+        public string ApeMar_persona
+        {
+            get
+            {
+                return apeMar_persona;
+            }
+
+            set
+            {
+                apeMar_persona = value;
+            }
+        }
+
+        public string CorreoElect_persona
+        {
+            get
+            {
+                return correoElect_persona;
+            }
+
+            set
+            {
+                correoElect_persona = value;
+            }
+        }
+
+        public int Telefono_persona
+        {
+            get
+            {
+                return telefono_persona;
+            }
+
+            set
+            {
+                telefono_persona = value;
+            }
+        }
+
+        public double Genero_persona
+        {
+            get
+            {
+                return genero_persona;
+            }
+
+            set
+            {
+                genero_persona = value;
+            }
+        }
+
+        public int Tipo_persona
+        {
+            get
+            {
+                return tipo_persona;
+            }
+
+            set
+            {
+                tipo_persona = value;
+            }
+        }
+
+        public int Id_usuario
+        {
+            get
+            {
+                return id_usuario;
+            }
+
+            set
+            {
+                id_usuario = value;
+            }
+        }
+
+        public int Id_equipo
+        {
+            get
+            {
+                return id_equipo;
+            }
+
+            set
+            {
+                id_equipo = value;
+            }
+        }
+
+        public int Id_convocatoria
+        {
+            get
+            {
+                return id_convocatoria;
+            }
+
+            set
+            {
+                id_convocatoria = value;
+            }
+        }
     }
 }

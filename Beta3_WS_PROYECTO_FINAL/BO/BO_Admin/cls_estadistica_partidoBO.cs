@@ -11,8 +11,30 @@ namespace Beta3_WS_PROYECTO_FINAL.BO
         private int estadistica;
         private int partido;
 
+        public int Estadistica
+        {
+            get
+            {
+                return estadistica;
+            }
 
-        public int Estadistica { get => estadistica; set => estadistica = value; }
-        public int Partido { get => partido; set => partido = value; }
+            set
+            {
+                estadistica = value;
+            }
+        }
+
+        public int Partido
+        {
+            get
+            {
+                return partido;
+            }
+
+            set
+            {
+                partido = value;
+            }
+        }
     }
 }
