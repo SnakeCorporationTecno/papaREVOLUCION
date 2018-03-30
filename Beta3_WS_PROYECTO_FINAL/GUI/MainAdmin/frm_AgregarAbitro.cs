@@ -23,6 +23,12 @@ namespace Beta3_WS_PROYECTO_FINAL.GUI.MainAdmin
 
         private void btn_registrarpersona_registroArb_Click(object sender, EventArgs e)
         {
+            bool validacion = validacioncampos();
+            if (validacion== true)
+            {
+                errorProvider1.Clear();
+                MessageBox.Show("Nombre arbitro" + txt_nombreArbitro.Text + "\nApellido arbitro" + txt_apePat_Arbitro + txt_apeMat_Arbitro);
+            }
             if (obj_arbd.AgregarArbitro(RecuperarInformacion())==1)
             {
                 MessageBox.Show("Registro Agregado");
@@ -31,6 +37,7 @@ namespace Beta3_WS_PROYECTO_FINAL.GUI.MainAdmin
             {
                 MessageBox.Show("Algo salio Mal");
             }
+            
             this.Hide();
             
         }
@@ -42,6 +49,38 @@ namespace Beta3_WS_PROYECTO_FINAL.GUI.MainAdmin
             obj_arb.Genero_arbitro = Convert.ToBoolean(rbn_hombre_arbitro.ToString());
             obj_arb.Genero_arbitro = Convert.ToBoolean(rbn_mujer_Arbitro.ToString());
             return obj_arb;
+        }
+        public bool validacioncampos()
+        {
+            bool validado = true;
+            if(String.IsNullOrWhiteSpace(txt_nombreArbitro.Text))
+            {
+                errorProvider1.SetError(txt_nombreArbitro, "No puede ir vacio");
+                validado = false;
+            }
+            else
+            {
+                errorProvider1.SetError(txt_nombreArbitro, "");
+            }
+            if(String.IsNullOrWhiteSpace(txt_apePat_Arbitro.Text))
+            {
+                errorProvider1.SetError(txt_apePat_Arbitro, "No puede ir vacio");
+                validado = false;
+            }
+            else
+            {
+                errorProvider1.SetError(txt_apePat_Arbitro, "");
+            }
+            if(String.IsNullOrWhiteSpace(txt_apeMat_Arbitro.Text))
+            {
+                errorProvider1.SetError(txt_apeMat_Arbitro, "No puede ir vacio");
+                validado = false;
+            }
+            else
+            {
+                errorProvider1.SetError(txt_apeMat_Arbitro, "");
+            }
+            return validado;
         }
 
     }

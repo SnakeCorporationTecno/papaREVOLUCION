@@ -15,6 +15,7 @@ namespace Beta3_WS_PROYECTO_FINAL.GUI.MainAdmin
         public frm_verEquipos_admin()
         {
             InitializeComponent();
+            
         }
 
         private void bunifuFlatButton4_Click(object sender, EventArgs e)
