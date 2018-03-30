@@ -43,14 +43,14 @@
             this.btn_eliminArb_vArb = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_editArb_vArb = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_reArb_vArb = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_Arbitros = new System.Windows.Forms.DataGridView();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.btn_buscar_verArbit_administrador = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuElipse4 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Arbitros)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -252,6 +252,7 @@
             this.btn_eliminArb_vArb.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_eliminArb_vArb.Textcolor = System.Drawing.Color.White;
             this.btn_eliminArb_vArb.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_eliminArb_vArb.Click += new System.EventHandler(this.btn_eliminArb_vArb_Click);
             // 
             // btn_editArb_vArb
             // 
@@ -286,6 +287,7 @@
             this.btn_editArb_vArb.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_editArb_vArb.Textcolor = System.Drawing.Color.White;
             this.btn_editArb_vArb.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_editArb_vArb.Click += new System.EventHandler(this.btn_editArb_vArb_Click);
             // 
             // btn_reArb_vArb
             // 
@@ -320,14 +322,15 @@
             this.btn_reArb_vArb.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_reArb_vArb.Textcolor = System.Drawing.Color.White;
             this.btn_reArb_vArb.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_reArb_vArb.Click += new System.EventHandler(this.btn_reArb_vArb_Click);
             // 
-            // dataGridView1
+            // dgv_Arbitros
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 273);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(602, 155);
-            this.dataGridView1.TabIndex = 91;
+            this.dgv_Arbitros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Arbitros.Location = new System.Drawing.Point(0, 273);
+            this.dgv_Arbitros.Name = "dgv_Arbitros";
+            this.dgv_Arbitros.Size = new System.Drawing.Size(602, 155);
+            this.dgv_Arbitros.TabIndex = 91;
             // 
             // bunifuElipse1
             // 
@@ -377,6 +380,7 @@
             this.btn_buscar_verArbit_administrador.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_buscar_verArbit_administrador.Textcolor = System.Drawing.Color.White;
             this.btn_buscar_verArbit_administrador.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_buscar_verArbit_administrador.Click += new System.EventHandler(this.btn_buscar_verArbit_administrador_Click);
             // 
             // bunifuElipse4
             // 
@@ -402,14 +406,14 @@
             this.Controls.Add(this.btn_eliminArb_vArb);
             this.Controls.Add(this.btn_editArb_vArb);
             this.Controls.Add(this.btn_reArb_vArb);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_Arbitros);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_verArbitros_administrador";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_verArbitros_administrador";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Arbitros)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -431,7 +435,7 @@
         private Bunifu.Framework.UI.BunifuFlatButton btn_eliminArb_vArb;
         private Bunifu.Framework.UI.BunifuFlatButton btn_editArb_vArb;
         private Bunifu.Framework.UI.BunifuFlatButton btn_reArb_vArb;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_Arbitros;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse3;

@@ -159,7 +159,7 @@
             this.btn_iniciar_sesion.Textcolor = System.Drawing.Color.White;
             this.btn_iniciar_sesion.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_iniciar_sesion.Click += new System.EventHandler(this.btn_iniciar_sesion_Click);
-            // 
+            
             // bunifuFlatButton1
             // 
             this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));

@@ -11,7 +11,6 @@ using Beta3_WS_PROYECTO_FINAL.BO;
 using Beta3_WS_PROYECTO_FINAL.DAO;
 using MySql.Data.MySqlClient;
 using Beta3_WS_PROYECTO_FINAL.GUI;
-using System.Data;
 
 
 namespace Beta3_WS_PROYECTO_FINAL.GUI
