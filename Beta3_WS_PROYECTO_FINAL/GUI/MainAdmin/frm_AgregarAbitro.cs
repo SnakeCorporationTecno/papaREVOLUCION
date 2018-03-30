@@ -16,5 +16,10 @@ namespace Beta3_WS_PROYECTO_FINAL.GUI.MainAdmin
         {
             InitializeComponent();
         }
+
+        private void btn_registrarpersona_registroArb_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -38,8 +38,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txt_apeMat_Arbitro = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbn_hombre_arbitro = new System.Windows.Forms.RadioButton();
             this.rbn_mujer_Arbitro = new System.Windows.Forms.RadioButton();
+            this.rbn_hombre_arbitro = new System.Windows.Forms.RadioButton();
             this.btn_cancelarpersona_registroArb = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_registrarpersona_registroArb = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -154,17 +154,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Genero";
             // 
-            // rbn_hombre_arbitro
-            // 
-            this.rbn_hombre_arbitro.AutoSize = true;
-            this.rbn_hombre_arbitro.Location = new System.Drawing.Point(31, 37);
-            this.rbn_hombre_arbitro.Name = "rbn_hombre_arbitro";
-            this.rbn_hombre_arbitro.Size = new System.Drawing.Size(101, 26);
-            this.rbn_hombre_arbitro.TabIndex = 0;
-            this.rbn_hombre_arbitro.TabStop = true;
-            this.rbn_hombre_arbitro.Text = "Hombre";
-            this.rbn_hombre_arbitro.UseVisualStyleBackColor = true;
-            // 
             // rbn_mujer_Arbitro
             // 
             this.rbn_mujer_Arbitro.AutoSize = true;
@@ -175,6 +164,17 @@
             this.rbn_mujer_Arbitro.TabStop = true;
             this.rbn_mujer_Arbitro.Text = "Mujer";
             this.rbn_mujer_Arbitro.UseVisualStyleBackColor = true;
+            // 
+            // rbn_hombre_arbitro
+            // 
+            this.rbn_hombre_arbitro.AutoSize = true;
+            this.rbn_hombre_arbitro.Location = new System.Drawing.Point(31, 37);
+            this.rbn_hombre_arbitro.Name = "rbn_hombre_arbitro";
+            this.rbn_hombre_arbitro.Size = new System.Drawing.Size(101, 26);
+            this.rbn_hombre_arbitro.TabIndex = 0;
+            this.rbn_hombre_arbitro.TabStop = true;
+            this.rbn_hombre_arbitro.Text = "Hombre";
+            this.rbn_hombre_arbitro.UseVisualStyleBackColor = true;
             // 
             // btn_cancelarpersona_registroArb
             // 
@@ -243,6 +243,7 @@
             this.btn_registrarpersona_registroArb.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_registrarpersona_registroArb.Textcolor = System.Drawing.Color.White;
             this.btn_registrarpersona_registroArb.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_registrarpersona_registroArb.Click += new System.EventHandler(this.btn_registrarpersona_registroArb_Click);
             // 
             // bunifuElipse1
             // 
