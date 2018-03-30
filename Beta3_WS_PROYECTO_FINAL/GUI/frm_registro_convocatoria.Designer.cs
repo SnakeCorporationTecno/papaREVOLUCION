@@ -33,23 +33,25 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btn_cerrar_convocatoria = new Bunifu.Framework.UI.BunifuFlatButton();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_Nom_conv = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dtp_fechainicio = new System.Windows.Forms.DateTimePicker();
+            this.dtp_fechafin = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rb_Femenil = new System.Windows.Forms.RadioButton();
+            this.rb_Varonil = new System.Windows.Forms.RadioButton();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cb_tipoconvocatoria = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btn_cancelarpersona_registroconv = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_registrarpersona_registroconv = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.EP_convo = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.EP_convo)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -125,13 +127,13 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Nombre de la convocatoria";
             // 
-            // textBox1
+            // txt_Nom_conv
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(18, 75);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(176, 27);
-            this.textBox1.TabIndex = 3;
+            this.txt_Nom_conv.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Nom_conv.Location = new System.Drawing.Point(18, 75);
+            this.txt_Nom_conv.Name = "txt_Nom_conv";
+            this.txt_Nom_conv.Size = new System.Drawing.Size(176, 27);
+            this.txt_Nom_conv.TabIndex = 3;
             // 
             // label3
             // 
@@ -153,26 +155,26 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Fecha de finalizacion";
             // 
-            // dateTimePicker1
+            // dtp_fechainicio
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(270, 78);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(316, 27);
-            this.dateTimePicker1.TabIndex = 8;
+            this.dtp_fechainicio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_fechainicio.Location = new System.Drawing.Point(270, 78);
+            this.dtp_fechainicio.Name = "dtp_fechainicio";
+            this.dtp_fechainicio.Size = new System.Drawing.Size(316, 27);
+            this.dtp_fechainicio.TabIndex = 8;
             // 
-            // dateTimePicker2
+            // dtp_fechafin
             // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(271, 135);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(315, 27);
-            this.dateTimePicker2.TabIndex = 9;
+            this.dtp_fechafin.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_fechafin.Location = new System.Drawing.Point(271, 135);
+            this.dtp_fechafin.Name = "dtp_fechafin";
+            this.dtp_fechafin.Size = new System.Drawing.Size(315, 27);
+            this.dtp_fechafin.TabIndex = 9;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.rb_Femenil);
+            this.groupBox1.Controls.Add(this.rb_Varonil);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Location = new System.Drawing.Point(21, 135);
             this.groupBox1.Name = "groupBox1";
@@ -180,29 +182,29 @@
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             // 
-            // radioButton2
+            // rb_Femenil
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(96, 16);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(87, 25);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Femenil";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rb_Femenil.AutoSize = true;
+            this.rb_Femenil.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rb_Femenil.Location = new System.Drawing.Point(96, 16);
+            this.rb_Femenil.Name = "rb_Femenil";
+            this.rb_Femenil.Size = new System.Drawing.Size(87, 25);
+            this.rb_Femenil.TabIndex = 1;
+            this.rb_Femenil.TabStop = true;
+            this.rb_Femenil.Text = "Femenil";
+            this.rb_Femenil.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rb_Varonil
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(6, 16);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(81, 25);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Varonil";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rb_Varonil.AutoSize = true;
+            this.rb_Varonil.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rb_Varonil.Location = new System.Drawing.Point(6, 16);
+            this.rb_Varonil.Name = "rb_Varonil";
+            this.rb_Varonil.Size = new System.Drawing.Size(81, 25);
+            this.rb_Varonil.TabIndex = 0;
+            this.rb_Varonil.TabStop = true;
+            this.rb_Varonil.Text = "Varonil";
+            this.rb_Varonil.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -214,17 +216,17 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Categoria";
             // 
-            // comboBox1
+            // cb_tipoconvocatoria
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cb_tipoconvocatoria.FormattingEnabled = true;
+            this.cb_tipoconvocatoria.Items.AddRange(new object[] {
             "Fut7",
             "Futbol de campo",
             "Futbol profesional"});
-            this.comboBox1.Location = new System.Drawing.Point(274, 194);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(237, 21);
-            this.comboBox1.TabIndex = 12;
+            this.cb_tipoconvocatoria.Location = new System.Drawing.Point(274, 194);
+            this.cb_tipoconvocatoria.Name = "cb_tipoconvocatoria";
+            this.cb_tipoconvocatoria.Size = new System.Drawing.Size(237, 21);
+            this.cb_tipoconvocatoria.TabIndex = 12;
             // 
             // label6
             // 
@@ -316,6 +318,10 @@
             this.bunifuElipse2.ElipseRadius = 9;
             this.bunifuElipse2.TargetControl = this.btn_registrarpersona_registroconv;
             // 
+            // EP_convo
+            // 
+            this.EP_convo.ContainerControl = this;
+            // 
             // frm_registro_convocatoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -324,14 +330,14 @@
             this.Controls.Add(this.btn_cancelarpersona_registroconv);
             this.Controls.Add(this.btn_registrarpersona_registroconv);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cb_tipoconvocatoria);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtp_fechafin);
+            this.Controls.Add(this.dtp_fechainicio);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_Nom_conv);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -342,6 +348,7 @@
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.EP_convo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -353,20 +360,21 @@
         private Bunifu.Framework.UI.BunifuFlatButton btn_cerrar_convocatoria;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_Nom_conv;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dtp_fechainicio;
+        private System.Windows.Forms.DateTimePicker dtp_fechafin;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rb_Femenil;
+        private System.Windows.Forms.RadioButton rb_Varonil;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cb_tipoconvocatoria;
         private System.Windows.Forms.Label label6;
         private Bunifu.Framework.UI.BunifuFlatButton btn_cancelarpersona_registroconv;
         private Bunifu.Framework.UI.BunifuFlatButton btn_registrarpersona_registroconv;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
+        private System.Windows.Forms.ErrorProvider EP_convo;
     }
 }

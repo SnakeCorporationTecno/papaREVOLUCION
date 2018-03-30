@@ -24,20 +24,20 @@ namespace Beta3_WS_PROYECTO_FINAL.GUI.MainAdmin
         private void btn_registrarpersona_registroArb_Click(object sender, EventArgs e)
         {
             bool validacion = validacioncampos();
-            if (validacion== true)
+            if (validacion == true)
             {
                 errorProvider1.Clear();
                 MessageBox.Show("Nombre arbitro" + txt_nombreArbitro.Text + "\nApellido arbitro" + txt_apePat_Arbitro + txt_apeMat_Arbitro);
+
+                if (obj_arbd.AgregarArbitro(RecuperarInformacion()) == 1)
+                {
+                    MessageBox.Show("Registro Agregado");
+                }
+                else
+                {
+                    MessageBox.Show("Algo salio Mal");
+                }
             }
-            if (obj_arbd.AgregarArbitro(RecuperarInformacion())==1)
-            {
-                MessageBox.Show("Registro Agregado");
-            }
-            else
-            {
-                MessageBox.Show("Algo salio Mal");
-            }
-            
             this.Hide();
             
         }
