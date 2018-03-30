@@ -85,6 +85,7 @@
     <Compile Include="BO\cls_usuarioBO.cs" />
     <Compile Include="DAO\ClsUsuariO_DAO.cs" />
     <Compile Include="DAO\cls_arbitroDAO.cs" />
+    <Compile Include="DAO\cls_carreraDAO.cs" />
     <Compile Include="DAO\cls_conexion.cs" />
     <Compile Include="DAO\cls_convocatoriaDAO.cs" />
     <Compile Include="DAO\cls_divisionDAO.cs" />
