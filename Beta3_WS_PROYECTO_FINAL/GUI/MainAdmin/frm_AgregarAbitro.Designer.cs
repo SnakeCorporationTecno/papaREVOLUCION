@@ -38,8 +38,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txt_apeMat_Arbitro = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbn_hombre_arbitro = new System.Windows.Forms.RadioButton();
             this.rbn_mujer_Arbitro = new System.Windows.Forms.RadioButton();
+            this.rbn_hombre_arbitro = new System.Windows.Forms.RadioButton();
             this.btn_cancelarpersona_registroArb = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_registrarpersona_registroArb = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -74,7 +74,7 @@
             this.txt_nombreArbitro.Location = new System.Drawing.Point(27, 40);
             this.txt_nombreArbitro.Margin = new System.Windows.Forms.Padding(4);
             this.txt_nombreArbitro.Name = "txt_nombreArbitro";
-            this.txt_nombreArbitro.Size = new System.Drawing.Size(370, 37);
+            this.txt_nombreArbitro.Size = new System.Drawing.Size(283, 37);
             this.txt_nombreArbitro.TabIndex = 1;
             this.txt_nombreArbitro.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -84,9 +84,9 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(20, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 22);
+            this.label1.Size = new System.Drawing.Size(110, 22);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Nombre";
+            this.label1.Text = "Nombre(s):";
             // 
             // label2
             // 
@@ -94,9 +94,9 @@
             this.label2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(20, 94);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 22);
+            this.label2.Size = new System.Drawing.Size(169, 22);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Apellido paterno";
+            this.label2.Text = "Apellido paterno:";
             // 
             // txt_apePat_Arbitro
             // 
@@ -111,7 +111,7 @@
             this.txt_apePat_Arbitro.Location = new System.Drawing.Point(27, 120);
             this.txt_apePat_Arbitro.Margin = new System.Windows.Forms.Padding(4);
             this.txt_apePat_Arbitro.Name = "txt_apePat_Arbitro";
-            this.txt_apePat_Arbitro.Size = new System.Drawing.Size(370, 37);
+            this.txt_apePat_Arbitro.Size = new System.Drawing.Size(283, 37);
             this.txt_apePat_Arbitro.TabIndex = 3;
             this.txt_apePat_Arbitro.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -121,9 +121,9 @@
             this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(20, 173);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(168, 22);
+            this.label3.Size = new System.Drawing.Size(173, 22);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Apellido materno";
+            this.label3.Text = "Apellido materno:";
             // 
             // txt_apeMat_Arbitro
             // 
@@ -138,7 +138,7 @@
             this.txt_apeMat_Arbitro.Location = new System.Drawing.Point(27, 199);
             this.txt_apeMat_Arbitro.Margin = new System.Windows.Forms.Padding(4);
             this.txt_apeMat_Arbitro.Name = "txt_apeMat_Arbitro";
-            this.txt_apeMat_Arbitro.Size = new System.Drawing.Size(370, 37);
+            this.txt_apeMat_Arbitro.Size = new System.Drawing.Size(283, 37);
             this.txt_apeMat_Arbitro.TabIndex = 5;
             this.txt_apeMat_Arbitro.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -147,23 +147,12 @@
             this.groupBox1.Controls.Add(this.rbn_mujer_Arbitro);
             this.groupBox1.Controls.Add(this.rbn_hombre_arbitro);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(70, 246);
+            this.groupBox1.Location = new System.Drawing.Point(27, 246);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(285, 84);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Genero";
-            // 
-            // rbn_hombre_arbitro
-            // 
-            this.rbn_hombre_arbitro.AutoSize = true;
-            this.rbn_hombre_arbitro.Location = new System.Drawing.Point(31, 37);
-            this.rbn_hombre_arbitro.Name = "rbn_hombre_arbitro";
-            this.rbn_hombre_arbitro.Size = new System.Drawing.Size(101, 26);
-            this.rbn_hombre_arbitro.TabIndex = 0;
-            this.rbn_hombre_arbitro.TabStop = true;
-            this.rbn_hombre_arbitro.Text = "Hombre";
-            this.rbn_hombre_arbitro.UseVisualStyleBackColor = true;
             // 
             // rbn_mujer_Arbitro
             // 
@@ -175,6 +164,17 @@
             this.rbn_mujer_Arbitro.TabStop = true;
             this.rbn_mujer_Arbitro.Text = "Mujer";
             this.rbn_mujer_Arbitro.UseVisualStyleBackColor = true;
+            // 
+            // rbn_hombre_arbitro
+            // 
+            this.rbn_hombre_arbitro.AutoSize = true;
+            this.rbn_hombre_arbitro.Location = new System.Drawing.Point(31, 37);
+            this.rbn_hombre_arbitro.Name = "rbn_hombre_arbitro";
+            this.rbn_hombre_arbitro.Size = new System.Drawing.Size(101, 26);
+            this.rbn_hombre_arbitro.TabIndex = 0;
+            this.rbn_hombre_arbitro.TabStop = true;
+            this.rbn_hombre_arbitro.Text = "Hombre";
+            this.rbn_hombre_arbitro.UseVisualStyleBackColor = true;
             // 
             // btn_cancelarpersona_registroArb
             // 
@@ -197,7 +197,7 @@
             this.btn_cancelarpersona_registroArb.IconVisible = true;
             this.btn_cancelarpersona_registroArb.IconZoom = 90D;
             this.btn_cancelarpersona_registroArb.IsTab = false;
-            this.btn_cancelarpersona_registroArb.Location = new System.Drawing.Point(87, 336);
+            this.btn_cancelarpersona_registroArb.Location = new System.Drawing.Point(35, 349);
             this.btn_cancelarpersona_registroArb.Name = "btn_cancelarpersona_registroArb";
             this.btn_cancelarpersona_registroArb.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
             this.btn_cancelarpersona_registroArb.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(96)))), ((int)(((byte)(130)))));
@@ -231,7 +231,7 @@
             this.btn_registrarpersona_registroArb.IconVisible = true;
             this.btn_registrarpersona_registroArb.IconZoom = 90D;
             this.btn_registrarpersona_registroArb.IsTab = false;
-            this.btn_registrarpersona_registroArb.Location = new System.Drawing.Point(225, 336);
+            this.btn_registrarpersona_registroArb.Location = new System.Drawing.Point(173, 349);
             this.btn_registrarpersona_registroArb.Name = "btn_registrarpersona_registroArb";
             this.btn_registrarpersona_registroArb.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
             this.btn_registrarpersona_registroArb.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(198)))), ((int)(((byte)(114)))));
@@ -258,7 +258,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(441, 408);
+            this.ClientSize = new System.Drawing.Size(372, 408);
             this.Controls.Add(this.btn_cancelarpersona_registroArb);
             this.Controls.Add(this.btn_registrarpersona_registroArb);
             this.Controls.Add(this.groupBox1);

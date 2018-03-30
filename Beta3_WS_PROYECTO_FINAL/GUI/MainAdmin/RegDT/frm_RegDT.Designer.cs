@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_cancelarpersona_registro = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_siguientepersona_registro = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.components = new System.ComponentModel.Container();
+            this.btn_cancelarpersona_registroDT = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_siguientepersona_registro_DT = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -47,76 +48,78 @@
             this.txt_apePat_persona = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_nombre_persona = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btn_cancelarpersona_registro
+            // btn_cancelarpersona_registroDT
             // 
-            this.btn_cancelarpersona_registro.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
-            this.btn_cancelarpersona_registro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
-            this.btn_cancelarpersona_registro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_cancelarpersona_registro.BorderRadius = 0;
-            this.btn_cancelarpersona_registro.ButtonText = "Cancelar";
-            this.btn_cancelarpersona_registro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_cancelarpersona_registro.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_cancelarpersona_registro.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_cancelarpersona_registro.Iconimage = null;
-            this.btn_cancelarpersona_registro.Iconimage_right = null;
-            this.btn_cancelarpersona_registro.Iconimage_right_Selected = null;
-            this.btn_cancelarpersona_registro.Iconimage_Selected = null;
-            this.btn_cancelarpersona_registro.IconMarginLeft = 0;
-            this.btn_cancelarpersona_registro.IconMarginRight = 0;
-            this.btn_cancelarpersona_registro.IconRightVisible = true;
-            this.btn_cancelarpersona_registro.IconRightZoom = 0D;
-            this.btn_cancelarpersona_registro.IconVisible = true;
-            this.btn_cancelarpersona_registro.IconZoom = 90D;
-            this.btn_cancelarpersona_registro.IsTab = false;
-            this.btn_cancelarpersona_registro.Location = new System.Drawing.Point(378, 197);
-            this.btn_cancelarpersona_registro.Name = "btn_cancelarpersona_registro";
-            this.btn_cancelarpersona_registro.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
-            this.btn_cancelarpersona_registro.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(96)))), ((int)(((byte)(130)))));
-            this.btn_cancelarpersona_registro.OnHoverTextColor = System.Drawing.Color.White;
-            this.btn_cancelarpersona_registro.selected = false;
-            this.btn_cancelarpersona_registro.Size = new System.Drawing.Size(124, 32);
-            this.btn_cancelarpersona_registro.TabIndex = 84;
-            this.btn_cancelarpersona_registro.Text = "Cancelar";
-            this.btn_cancelarpersona_registro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_cancelarpersona_registro.Textcolor = System.Drawing.Color.White;
-            this.btn_cancelarpersona_registro.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cancelarpersona_registroDT.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
+            this.btn_cancelarpersona_registroDT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
+            this.btn_cancelarpersona_registroDT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_cancelarpersona_registroDT.BorderRadius = 0;
+            this.btn_cancelarpersona_registroDT.ButtonText = "Cancelar";
+            this.btn_cancelarpersona_registroDT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_cancelarpersona_registroDT.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_cancelarpersona_registroDT.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_cancelarpersona_registroDT.Iconimage = null;
+            this.btn_cancelarpersona_registroDT.Iconimage_right = null;
+            this.btn_cancelarpersona_registroDT.Iconimage_right_Selected = null;
+            this.btn_cancelarpersona_registroDT.Iconimage_Selected = null;
+            this.btn_cancelarpersona_registroDT.IconMarginLeft = 0;
+            this.btn_cancelarpersona_registroDT.IconMarginRight = 0;
+            this.btn_cancelarpersona_registroDT.IconRightVisible = true;
+            this.btn_cancelarpersona_registroDT.IconRightZoom = 0D;
+            this.btn_cancelarpersona_registroDT.IconVisible = true;
+            this.btn_cancelarpersona_registroDT.IconZoom = 90D;
+            this.btn_cancelarpersona_registroDT.IsTab = false;
+            this.btn_cancelarpersona_registroDT.Location = new System.Drawing.Point(378, 199);
+            this.btn_cancelarpersona_registroDT.Name = "btn_cancelarpersona_registroDT";
+            this.btn_cancelarpersona_registroDT.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
+            this.btn_cancelarpersona_registroDT.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(96)))), ((int)(((byte)(130)))));
+            this.btn_cancelarpersona_registroDT.OnHoverTextColor = System.Drawing.Color.White;
+            this.btn_cancelarpersona_registroDT.selected = false;
+            this.btn_cancelarpersona_registroDT.Size = new System.Drawing.Size(124, 32);
+            this.btn_cancelarpersona_registroDT.TabIndex = 84;
+            this.btn_cancelarpersona_registroDT.Text = "Cancelar";
+            this.btn_cancelarpersona_registroDT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_cancelarpersona_registroDT.Textcolor = System.Drawing.Color.White;
+            this.btn_cancelarpersona_registroDT.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // btn_siguientepersona_registro
+            // btn_siguientepersona_registro_DT
             // 
-            this.btn_siguientepersona_registro.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
-            this.btn_siguientepersona_registro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
-            this.btn_siguientepersona_registro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_siguientepersona_registro.BorderRadius = 0;
-            this.btn_siguientepersona_registro.ButtonText = "Siguiente";
-            this.btn_siguientepersona_registro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_siguientepersona_registro.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_siguientepersona_registro.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_siguientepersona_registro.Iconimage = null;
-            this.btn_siguientepersona_registro.Iconimage_right = null;
-            this.btn_siguientepersona_registro.Iconimage_right_Selected = null;
-            this.btn_siguientepersona_registro.Iconimage_Selected = null;
-            this.btn_siguientepersona_registro.IconMarginLeft = 0;
-            this.btn_siguientepersona_registro.IconMarginRight = 0;
-            this.btn_siguientepersona_registro.IconRightVisible = true;
-            this.btn_siguientepersona_registro.IconRightZoom = 0D;
-            this.btn_siguientepersona_registro.IconVisible = true;
-            this.btn_siguientepersona_registro.IconZoom = 90D;
-            this.btn_siguientepersona_registro.IsTab = false;
-            this.btn_siguientepersona_registro.Location = new System.Drawing.Point(516, 197);
-            this.btn_siguientepersona_registro.Name = "btn_siguientepersona_registro";
-            this.btn_siguientepersona_registro.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
-            this.btn_siguientepersona_registro.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(198)))), ((int)(((byte)(114)))));
-            this.btn_siguientepersona_registro.OnHoverTextColor = System.Drawing.Color.White;
-            this.btn_siguientepersona_registro.selected = false;
-            this.btn_siguientepersona_registro.Size = new System.Drawing.Size(124, 32);
-            this.btn_siguientepersona_registro.TabIndex = 83;
-            this.btn_siguientepersona_registro.Text = "Siguiente";
-            this.btn_siguientepersona_registro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_siguientepersona_registro.Textcolor = System.Drawing.Color.White;
-            this.btn_siguientepersona_registro.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_siguientepersona_registro_DT.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
+            this.btn_siguientepersona_registro_DT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
+            this.btn_siguientepersona_registro_DT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_siguientepersona_registro_DT.BorderRadius = 0;
+            this.btn_siguientepersona_registro_DT.ButtonText = "Siguiente";
+            this.btn_siguientepersona_registro_DT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_siguientepersona_registro_DT.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_siguientepersona_registro_DT.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_siguientepersona_registro_DT.Iconimage = null;
+            this.btn_siguientepersona_registro_DT.Iconimage_right = null;
+            this.btn_siguientepersona_registro_DT.Iconimage_right_Selected = null;
+            this.btn_siguientepersona_registro_DT.Iconimage_Selected = null;
+            this.btn_siguientepersona_registro_DT.IconMarginLeft = 0;
+            this.btn_siguientepersona_registro_DT.IconMarginRight = 0;
+            this.btn_siguientepersona_registro_DT.IconRightVisible = true;
+            this.btn_siguientepersona_registro_DT.IconRightZoom = 0D;
+            this.btn_siguientepersona_registro_DT.IconVisible = true;
+            this.btn_siguientepersona_registro_DT.IconZoom = 90D;
+            this.btn_siguientepersona_registro_DT.IsTab = false;
+            this.btn_siguientepersona_registro_DT.Location = new System.Drawing.Point(516, 199);
+            this.btn_siguientepersona_registro_DT.Name = "btn_siguientepersona_registro_DT";
+            this.btn_siguientepersona_registro_DT.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
+            this.btn_siguientepersona_registro_DT.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(198)))), ((int)(((byte)(114)))));
+            this.btn_siguientepersona_registro_DT.OnHoverTextColor = System.Drawing.Color.White;
+            this.btn_siguientepersona_registro_DT.selected = false;
+            this.btn_siguientepersona_registro_DT.Size = new System.Drawing.Size(124, 32);
+            this.btn_siguientepersona_registro_DT.TabIndex = 83;
+            this.btn_siguientepersona_registro_DT.Text = "Siguiente";
+            this.btn_siguientepersona_registro_DT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_siguientepersona_registro_DT.Textcolor = System.Drawing.Color.White;
+            this.btn_siguientepersona_registro_DT.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // panel1
             // 
@@ -177,7 +180,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(19, 197);
+            this.label7.Location = new System.Drawing.Point(19, 201);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(73, 21);
             this.label7.TabIndex = 79;
@@ -335,13 +338,23 @@
             this.txt_nombre_persona.TabIndex = 68;
             this.txt_nombre_persona.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 9;
+            this.bunifuElipse1.TargetControl = this.btn_cancelarpersona_registroDT;
+            // 
+            // bunifuElipse2
+            // 
+            this.bunifuElipse2.ElipseRadius = 9;
+            this.bunifuElipse2.TargetControl = this.btn_siguientepersona_registro_DT;
+            // 
             // frm_RegDT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(666, 267);
-            this.Controls.Add(this.btn_cancelarpersona_registro);
-            this.Controls.Add(this.btn_siguientepersona_registro);
+            this.Controls.Add(this.btn_cancelarpersona_registroDT);
+            this.Controls.Add(this.btn_siguientepersona_registro_DT);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.groupBox1);
@@ -369,8 +382,8 @@
 
         #endregion
 
-        private Bunifu.Framework.UI.BunifuFlatButton btn_cancelarpersona_registro;
-        private Bunifu.Framework.UI.BunifuFlatButton btn_siguientepersona_registro;
+        private Bunifu.Framework.UI.BunifuFlatButton btn_cancelarpersona_registroDT;
+        private Bunifu.Framework.UI.BunifuFlatButton btn_siguientepersona_registro_DT;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -388,5 +401,7 @@
         private Bunifu.Framework.UI.BunifuMetroTextbox txt_apePat_persona;
         private System.Windows.Forms.Label label1;
         private Bunifu.Framework.UI.BunifuMetroTextbox txt_nombre_persona;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
     }
 }

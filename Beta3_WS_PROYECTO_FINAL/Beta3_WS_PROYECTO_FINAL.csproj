@@ -145,6 +145,12 @@
     <Compile Include="GUI\MainAdmin\frm_verAdmin_admin.Designer.cs">
       <DependentUpon>frm_verAdmin_admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\MainAdmin\frm_verArbitros_administrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdmin\frm_verArbitros_administrador.Designer.cs">
+      <DependentUpon>frm_verArbitros_administrador.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\MainAdmin\frm_verDT_admin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -275,6 +281,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\MainAdmin\frm_verAdmin_admin.resx">
       <DependentUpon>frm_verAdmin_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdmin\frm_verArbitros_administrador.resx">
+      <DependentUpon>frm_verArbitros_administrador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\MainAdmin\frm_verDT_admin.resx">
       <DependentUpon>frm_verDT_admin.cs</DependentUpon>

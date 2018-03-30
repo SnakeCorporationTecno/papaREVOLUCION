@@ -28,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btn_cancelarpersona_registro = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_registrarpersona_registro = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_cancelarpersona_registro_DT = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_registrarpersona_registro_DT = new Bunifu.Framework.UI.BunifuFlatButton();
             this.label9 = new System.Windows.Forms.Label();
             this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label10 = new System.Windows.Forms.Label();
             this.bunifuMetroTextbox2 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.SuspendLayout();
             // 
             // panel1
@@ -46,73 +49,73 @@
             this.panel1.Size = new System.Drawing.Size(10, 221);
             this.panel1.TabIndex = 67;
             // 
-            // btn_cancelarpersona_registro
+            // btn_cancelarpersona_registro_DT
             // 
-            this.btn_cancelarpersona_registro.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
-            this.btn_cancelarpersona_registro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
-            this.btn_cancelarpersona_registro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_cancelarpersona_registro.BorderRadius = 0;
-            this.btn_cancelarpersona_registro.ButtonText = "Cancelar";
-            this.btn_cancelarpersona_registro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_cancelarpersona_registro.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_cancelarpersona_registro.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_cancelarpersona_registro.Iconimage = null;
-            this.btn_cancelarpersona_registro.Iconimage_right = null;
-            this.btn_cancelarpersona_registro.Iconimage_right_Selected = null;
-            this.btn_cancelarpersona_registro.Iconimage_Selected = null;
-            this.btn_cancelarpersona_registro.IconMarginLeft = 0;
-            this.btn_cancelarpersona_registro.IconMarginRight = 0;
-            this.btn_cancelarpersona_registro.IconRightVisible = true;
-            this.btn_cancelarpersona_registro.IconRightZoom = 0D;
-            this.btn_cancelarpersona_registro.IconVisible = true;
-            this.btn_cancelarpersona_registro.IconZoom = 90D;
-            this.btn_cancelarpersona_registro.IsTab = false;
-            this.btn_cancelarpersona_registro.Location = new System.Drawing.Point(82, 155);
-            this.btn_cancelarpersona_registro.Name = "btn_cancelarpersona_registro";
-            this.btn_cancelarpersona_registro.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
-            this.btn_cancelarpersona_registro.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(96)))), ((int)(((byte)(130)))));
-            this.btn_cancelarpersona_registro.OnHoverTextColor = System.Drawing.Color.White;
-            this.btn_cancelarpersona_registro.selected = false;
-            this.btn_cancelarpersona_registro.Size = new System.Drawing.Size(124, 32);
-            this.btn_cancelarpersona_registro.TabIndex = 66;
-            this.btn_cancelarpersona_registro.Text = "Cancelar";
-            this.btn_cancelarpersona_registro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_cancelarpersona_registro.Textcolor = System.Drawing.Color.White;
-            this.btn_cancelarpersona_registro.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cancelarpersona_registro_DT.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
+            this.btn_cancelarpersona_registro_DT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
+            this.btn_cancelarpersona_registro_DT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_cancelarpersona_registro_DT.BorderRadius = 0;
+            this.btn_cancelarpersona_registro_DT.ButtonText = "Cancelar";
+            this.btn_cancelarpersona_registro_DT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_cancelarpersona_registro_DT.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_cancelarpersona_registro_DT.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_cancelarpersona_registro_DT.Iconimage = null;
+            this.btn_cancelarpersona_registro_DT.Iconimage_right = null;
+            this.btn_cancelarpersona_registro_DT.Iconimage_right_Selected = null;
+            this.btn_cancelarpersona_registro_DT.Iconimage_Selected = null;
+            this.btn_cancelarpersona_registro_DT.IconMarginLeft = 0;
+            this.btn_cancelarpersona_registro_DT.IconMarginRight = 0;
+            this.btn_cancelarpersona_registro_DT.IconRightVisible = true;
+            this.btn_cancelarpersona_registro_DT.IconRightZoom = 0D;
+            this.btn_cancelarpersona_registro_DT.IconVisible = true;
+            this.btn_cancelarpersona_registro_DT.IconZoom = 90D;
+            this.btn_cancelarpersona_registro_DT.IsTab = false;
+            this.btn_cancelarpersona_registro_DT.Location = new System.Drawing.Point(82, 155);
+            this.btn_cancelarpersona_registro_DT.Name = "btn_cancelarpersona_registro_DT";
+            this.btn_cancelarpersona_registro_DT.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
+            this.btn_cancelarpersona_registro_DT.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(96)))), ((int)(((byte)(130)))));
+            this.btn_cancelarpersona_registro_DT.OnHoverTextColor = System.Drawing.Color.White;
+            this.btn_cancelarpersona_registro_DT.selected = false;
+            this.btn_cancelarpersona_registro_DT.Size = new System.Drawing.Size(124, 32);
+            this.btn_cancelarpersona_registro_DT.TabIndex = 66;
+            this.btn_cancelarpersona_registro_DT.Text = "Cancelar";
+            this.btn_cancelarpersona_registro_DT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_cancelarpersona_registro_DT.Textcolor = System.Drawing.Color.White;
+            this.btn_cancelarpersona_registro_DT.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // btn_registrarpersona_registro
+            // btn_registrarpersona_registro_DT
             // 
-            this.btn_registrarpersona_registro.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
-            this.btn_registrarpersona_registro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
-            this.btn_registrarpersona_registro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_registrarpersona_registro.BorderRadius = 0;
-            this.btn_registrarpersona_registro.ButtonText = "Registrar";
-            this.btn_registrarpersona_registro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_registrarpersona_registro.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_registrarpersona_registro.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_registrarpersona_registro.Iconimage = null;
-            this.btn_registrarpersona_registro.Iconimage_right = null;
-            this.btn_registrarpersona_registro.Iconimage_right_Selected = null;
-            this.btn_registrarpersona_registro.Iconimage_Selected = null;
-            this.btn_registrarpersona_registro.IconMarginLeft = 0;
-            this.btn_registrarpersona_registro.IconMarginRight = 0;
-            this.btn_registrarpersona_registro.IconRightVisible = true;
-            this.btn_registrarpersona_registro.IconRightZoom = 0D;
-            this.btn_registrarpersona_registro.IconVisible = true;
-            this.btn_registrarpersona_registro.IconZoom = 90D;
-            this.btn_registrarpersona_registro.IsTab = false;
-            this.btn_registrarpersona_registro.Location = new System.Drawing.Point(220, 155);
-            this.btn_registrarpersona_registro.Name = "btn_registrarpersona_registro";
-            this.btn_registrarpersona_registro.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
-            this.btn_registrarpersona_registro.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(198)))), ((int)(((byte)(114)))));
-            this.btn_registrarpersona_registro.OnHoverTextColor = System.Drawing.Color.White;
-            this.btn_registrarpersona_registro.selected = false;
-            this.btn_registrarpersona_registro.Size = new System.Drawing.Size(124, 32);
-            this.btn_registrarpersona_registro.TabIndex = 65;
-            this.btn_registrarpersona_registro.Text = "Registrar";
-            this.btn_registrarpersona_registro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_registrarpersona_registro.Textcolor = System.Drawing.Color.White;
-            this.btn_registrarpersona_registro.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_registrarpersona_registro_DT.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
+            this.btn_registrarpersona_registro_DT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
+            this.btn_registrarpersona_registro_DT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_registrarpersona_registro_DT.BorderRadius = 0;
+            this.btn_registrarpersona_registro_DT.ButtonText = "Registrar";
+            this.btn_registrarpersona_registro_DT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_registrarpersona_registro_DT.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_registrarpersona_registro_DT.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_registrarpersona_registro_DT.Iconimage = null;
+            this.btn_registrarpersona_registro_DT.Iconimage_right = null;
+            this.btn_registrarpersona_registro_DT.Iconimage_right_Selected = null;
+            this.btn_registrarpersona_registro_DT.Iconimage_Selected = null;
+            this.btn_registrarpersona_registro_DT.IconMarginLeft = 0;
+            this.btn_registrarpersona_registro_DT.IconMarginRight = 0;
+            this.btn_registrarpersona_registro_DT.IconRightVisible = true;
+            this.btn_registrarpersona_registro_DT.IconRightZoom = 0D;
+            this.btn_registrarpersona_registro_DT.IconVisible = true;
+            this.btn_registrarpersona_registro_DT.IconZoom = 90D;
+            this.btn_registrarpersona_registro_DT.IsTab = false;
+            this.btn_registrarpersona_registro_DT.Location = new System.Drawing.Point(220, 155);
+            this.btn_registrarpersona_registro_DT.Name = "btn_registrarpersona_registro_DT";
+            this.btn_registrarpersona_registro_DT.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
+            this.btn_registrarpersona_registro_DT.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(198)))), ((int)(((byte)(114)))));
+            this.btn_registrarpersona_registro_DT.OnHoverTextColor = System.Drawing.Color.White;
+            this.btn_registrarpersona_registro_DT.selected = false;
+            this.btn_registrarpersona_registro_DT.Size = new System.Drawing.Size(124, 32);
+            this.btn_registrarpersona_registro_DT.TabIndex = 65;
+            this.btn_registrarpersona_registro_DT.Text = "Registrar";
+            this.btn_registrarpersona_registro_DT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_registrarpersona_registro_DT.Textcolor = System.Drawing.Color.White;
+            this.btn_registrarpersona_registro_DT.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // label9
             // 
@@ -168,14 +171,24 @@
             this.bunifuMetroTextbox2.TabIndex = 61;
             this.bunifuMetroTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 9;
+            this.bunifuElipse1.TargetControl = this.btn_cancelarpersona_registro_DT;
+            // 
+            // bunifuElipse2
+            // 
+            this.bunifuElipse2.ElipseRadius = 9;
+            this.bunifuElipse2.TargetControl = this.btn_registrarpersona_registro_DT;
+            // 
             // frm_RegDT_US
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(424, 221);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btn_cancelarpersona_registro);
-            this.Controls.Add(this.btn_registrarpersona_registro);
+            this.Controls.Add(this.btn_cancelarpersona_registro_DT);
+            this.Controls.Add(this.btn_registrarpersona_registro_DT);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.bunifuMetroTextbox1);
             this.Controls.Add(this.label10);
@@ -191,11 +204,13 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private Bunifu.Framework.UI.BunifuFlatButton btn_cancelarpersona_registro;
-        private Bunifu.Framework.UI.BunifuFlatButton btn_registrarpersona_registro;
+        private Bunifu.Framework.UI.BunifuFlatButton btn_cancelarpersona_registro_DT;
+        private Bunifu.Framework.UI.BunifuFlatButton btn_registrarpersona_registro_DT;
         private System.Windows.Forms.Label label9;
         private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
         private System.Windows.Forms.Label label10;
         private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox2;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
     }
 }
