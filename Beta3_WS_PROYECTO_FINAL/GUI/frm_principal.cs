@@ -14,7 +14,7 @@ using Beta3_WS_PROYECTO_FINAL.BO;
 namespace Beta3_WS_PROYECTO_FINAL
 {
     public partial class frm_principal : Form
-    {
+    { //espero se pueda
         //variables panel 
         int moveTOG;
         int mValX;
