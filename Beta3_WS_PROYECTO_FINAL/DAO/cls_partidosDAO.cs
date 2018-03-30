@@ -22,6 +22,10 @@ namespace Beta3_WS_PROYECTO_FINAL.DAO
             return Miconexion.EjercutarSentecia(ComandoSQL);
         }
 
-       
+       public int AgregarPartidos(cls_partidoBO obj_par)
+        {
+            string ComandoSQL = string.Format("INSERT INTO partido");
+                return Miconexion.EjecutarComando(ComandoSQL);
+        }
     }
 }
