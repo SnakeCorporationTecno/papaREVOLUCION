@@ -93,6 +93,7 @@
     <Compile Include="DAO\cls_instalacionesDAO.cs" />
     <Compile Include="DAO\cls_partidosDAO.cs" />
     <Compile Include="DAO\cls_personaDAO.cs" />
+    <Compile Include="DAO\cls_torneoDAO.cs" />
     <Compile Include="GUI\frm_agregar_equipos_DT_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
