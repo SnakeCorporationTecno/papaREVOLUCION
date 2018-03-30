@@ -55,6 +55,8 @@
             this.bunifuElipse4 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.txt_buscarDT_VerDT = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.btn_buscar_dt_administrador = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuElipse5 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -472,12 +474,52 @@
             this.txt_buscarDT_VerDT.TabIndex = 89;
             this.txt_buscarDT_VerDT.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // btn_buscar_dt_administrador
+            // 
+            this.btn_buscar_dt_administrador.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(84)))));
+            this.btn_buscar_dt_administrador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(84)))));
+            this.btn_buscar_dt_administrador.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_buscar_dt_administrador.BorderRadius = 0;
+            this.btn_buscar_dt_administrador.ButtonText = "Buscar";
+            this.btn_buscar_dt_administrador.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_buscar_dt_administrador.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_buscar_dt_administrador.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_buscar_dt_administrador.Iconimage = null;
+            this.btn_buscar_dt_administrador.Iconimage_right = null;
+            this.btn_buscar_dt_administrador.Iconimage_right_Selected = null;
+            this.btn_buscar_dt_administrador.Iconimage_Selected = null;
+            this.btn_buscar_dt_administrador.IconMarginLeft = 0;
+            this.btn_buscar_dt_administrador.IconMarginRight = 0;
+            this.btn_buscar_dt_administrador.IconRightVisible = true;
+            this.btn_buscar_dt_administrador.IconRightZoom = 0D;
+            this.btn_buscar_dt_administrador.IconVisible = true;
+            this.btn_buscar_dt_administrador.IconZoom = 90D;
+            this.btn_buscar_dt_administrador.IsTab = false;
+            this.btn_buscar_dt_administrador.Location = new System.Drawing.Point(554, 40);
+            this.btn_buscar_dt_administrador.Name = "btn_buscar_dt_administrador";
+            this.btn_buscar_dt_administrador.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(84)))));
+            this.btn_buscar_dt_administrador.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(84)))));
+            this.btn_buscar_dt_administrador.OnHoverTextColor = System.Drawing.Color.White;
+            this.btn_buscar_dt_administrador.selected = false;
+            this.btn_buscar_dt_administrador.Size = new System.Drawing.Size(129, 32);
+            this.btn_buscar_dt_administrador.TabIndex = 91;
+            this.btn_buscar_dt_administrador.Text = "Buscar";
+            this.btn_buscar_dt_administrador.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_buscar_dt_administrador.Textcolor = System.Drawing.Color.White;
+            this.btn_buscar_dt_administrador.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // bunifuElipse5
+            // 
+            this.bunifuElipse5.ElipseRadius = 9;
+            this.bunifuElipse5.TargetControl = this.btn_buscar_dt_administrador;
+            // 
             // frm_verDT_admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(818, 427);
+            this.Controls.Add(this.btn_buscar_dt_administrador);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_buscarDT_VerDT);
             this.Controls.Add(this.btn_changeUsPass_VerDT);
@@ -538,5 +580,7 @@
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse4;
         private System.Windows.Forms.Label label1;
         private Bunifu.Framework.UI.BunifuMetroTextbox txt_buscarDT_VerDT;
+        private Bunifu.Framework.UI.BunifuFlatButton btn_buscar_dt_administrador;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse5;
     }
 }
