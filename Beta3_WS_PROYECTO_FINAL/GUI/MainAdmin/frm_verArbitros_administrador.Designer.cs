@@ -47,6 +47,8 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.btn_buscar_verArbit_administrador = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuElipse4 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -55,7 +57,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(316, 179);
+            this.label1.Location = new System.Drawing.Point(323, 148);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 21);
             this.label1.TabIndex = 110;
@@ -71,10 +73,10 @@
             this.txt_buscarDT_VerDT.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txt_buscarDT_VerDT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_buscarDT_VerDT.isPassword = false;
-            this.txt_buscarDT_VerDT.Location = new System.Drawing.Point(320, 204);
+            this.txt_buscarDT_VerDT.Location = new System.Drawing.Point(327, 173);
             this.txt_buscarDT_VerDT.Margin = new System.Windows.Forms.Padding(4);
             this.txt_buscarDT_VerDT.Name = "txt_buscarDT_VerDT";
-            this.txt_buscarDT_VerDT.Size = new System.Drawing.Size(254, 31);
+            this.txt_buscarDT_VerDT.Size = new System.Drawing.Size(213, 31);
             this.txt_buscarDT_VerDT.TabIndex = 109;
             this.txt_buscarDT_VerDT.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -238,7 +240,7 @@
             this.btn_eliminArb_vArb.IconVisible = true;
             this.btn_eliminArb_vArb.IconZoom = 90D;
             this.btn_eliminArb_vArb.IsTab = false;
-            this.btn_eliminArb_vArb.Location = new System.Drawing.Point(320, 136);
+            this.btn_eliminArb_vArb.Location = new System.Drawing.Point(327, 112);
             this.btn_eliminArb_vArb.Name = "btn_eliminArb_vArb";
             this.btn_eliminArb_vArb.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
             this.btn_eliminArb_vArb.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
@@ -272,7 +274,7 @@
             this.btn_editArb_vArb.IconVisible = true;
             this.btn_editArb_vArb.IconZoom = 90D;
             this.btn_editArb_vArb.IsTab = false;
-            this.btn_editArb_vArb.Location = new System.Drawing.Point(320, 102);
+            this.btn_editArb_vArb.Location = new System.Drawing.Point(327, 78);
             this.btn_editArb_vArb.Name = "btn_editArb_vArb";
             this.btn_editArb_vArb.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.btn_editArb_vArb.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -306,7 +308,7 @@
             this.btn_reArb_vArb.IconVisible = true;
             this.btn_reArb_vArb.IconZoom = 90D;
             this.btn_reArb_vArb.IsTab = false;
-            this.btn_reArb_vArb.Location = new System.Drawing.Point(320, 68);
+            this.btn_reArb_vArb.Location = new System.Drawing.Point(327, 44);
             this.btn_reArb_vArb.Name = "btn_reArb_vArb";
             this.btn_reArb_vArb.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
             this.btn_reArb_vArb.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
@@ -322,9 +324,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 253);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 273);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(602, 175);
+            this.dataGridView1.Size = new System.Drawing.Size(602, 155);
             this.dataGridView1.TabIndex = 91;
             // 
             // bunifuElipse1
@@ -342,12 +344,52 @@
             this.bunifuElipse3.ElipseRadius = 9;
             this.bunifuElipse3.TargetControl = this.btn_reArb_vArb;
             // 
+            // btn_buscar_verArbit_administrador
+            // 
+            this.btn_buscar_verArbit_administrador.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(84)))));
+            this.btn_buscar_verArbit_administrador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(84)))));
+            this.btn_buscar_verArbit_administrador.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_buscar_verArbit_administrador.BorderRadius = 0;
+            this.btn_buscar_verArbit_administrador.ButtonText = "Buscar";
+            this.btn_buscar_verArbit_administrador.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_buscar_verArbit_administrador.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_buscar_verArbit_administrador.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_buscar_verArbit_administrador.Iconimage = null;
+            this.btn_buscar_verArbit_administrador.Iconimage_right = null;
+            this.btn_buscar_verArbit_administrador.Iconimage_right_Selected = null;
+            this.btn_buscar_verArbit_administrador.Iconimage_Selected = null;
+            this.btn_buscar_verArbit_administrador.IconMarginLeft = 0;
+            this.btn_buscar_verArbit_administrador.IconMarginRight = 0;
+            this.btn_buscar_verArbit_administrador.IconRightVisible = true;
+            this.btn_buscar_verArbit_administrador.IconRightZoom = 0D;
+            this.btn_buscar_verArbit_administrador.IconVisible = true;
+            this.btn_buscar_verArbit_administrador.IconZoom = 90D;
+            this.btn_buscar_verArbit_administrador.IsTab = false;
+            this.btn_buscar_verArbit_administrador.Location = new System.Drawing.Point(375, 211);
+            this.btn_buscar_verArbit_administrador.Name = "btn_buscar_verArbit_administrador";
+            this.btn_buscar_verArbit_administrador.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(84)))));
+            this.btn_buscar_verArbit_administrador.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(84)))));
+            this.btn_buscar_verArbit_administrador.OnHoverTextColor = System.Drawing.Color.White;
+            this.btn_buscar_verArbit_administrador.selected = false;
+            this.btn_buscar_verArbit_administrador.Size = new System.Drawing.Size(117, 28);
+            this.btn_buscar_verArbit_administrador.TabIndex = 111;
+            this.btn_buscar_verArbit_administrador.Text = "Buscar";
+            this.btn_buscar_verArbit_administrador.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_buscar_verArbit_administrador.Textcolor = System.Drawing.Color.White;
+            this.btn_buscar_verArbit_administrador.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // bunifuElipse4
+            // 
+            this.bunifuElipse4.ElipseRadius = 9;
+            this.bunifuElipse4.TargetControl = this.btn_buscar_verArbit_administrador;
+            // 
             // frm_verArbitros_administrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(602, 427);
+            this.Controls.Add(this.btn_buscar_verArbit_administrador);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_buscarDT_VerDT);
             this.Controls.Add(this.label5);
@@ -393,5 +435,7 @@
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse3;
+        private Bunifu.Framework.UI.BunifuFlatButton btn_buscar_verArbit_administrador;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse4;
     }
 }

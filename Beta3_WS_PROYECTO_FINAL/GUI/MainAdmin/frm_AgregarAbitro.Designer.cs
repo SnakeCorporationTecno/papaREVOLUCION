@@ -197,7 +197,7 @@
             this.btn_cancelarpersona_registroArb.IconVisible = true;
             this.btn_cancelarpersona_registroArb.IconZoom = 90D;
             this.btn_cancelarpersona_registroArb.IsTab = false;
-            this.btn_cancelarpersona_registroArb.Location = new System.Drawing.Point(35, 349);
+            this.btn_cancelarpersona_registroArb.Location = new System.Drawing.Point(38, 349);
             this.btn_cancelarpersona_registroArb.Name = "btn_cancelarpersona_registroArb";
             this.btn_cancelarpersona_registroArb.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(26)))), ((int)(((byte)(76)))));
             this.btn_cancelarpersona_registroArb.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(96)))), ((int)(((byte)(130)))));
@@ -231,7 +231,7 @@
             this.btn_registrarpersona_registroArb.IconVisible = true;
             this.btn_registrarpersona_registroArb.IconZoom = 90D;
             this.btn_registrarpersona_registroArb.IsTab = false;
-            this.btn_registrarpersona_registroArb.Location = new System.Drawing.Point(173, 349);
+            this.btn_registrarpersona_registroArb.Location = new System.Drawing.Point(176, 349);
             this.btn_registrarpersona_registroArb.Name = "btn_registrarpersona_registroArb";
             this.btn_registrarpersona_registroArb.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
             this.btn_registrarpersona_registroArb.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(198)))), ((int)(((byte)(114)))));
