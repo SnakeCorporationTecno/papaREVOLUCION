@@ -54,13 +54,7 @@
             this.lbl_inicio = new System.Windows.Forms.Label();
             this.lbl_partidos = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.uC_partidos1 = new Beta3_WS_PROYECTO_FINAL.GUI.UC.UC_partidos();
-            this.uC_estadisticas1 = new Beta3_WS_PROYECTO_FINAL.GUI.UC.UC_estadisticas();
-            this.uC_equipos1 = new Beta3_WS_PROYECTO_FINAL.GUI.UC.UC_equipos();
-            this.uC_convocatorias1 = new Beta3_WS_PROYECTO_FINAL.GUI.UC.UC_convocatorias();
-            this.uC_calendario1 = new Beta3_WS_PROYECTO_FINAL.GUI.UC.UC_calendario();
-            this.uC_cuenta_DT_ADMIN1 = new Beta3_WS_PROYECTO_FINAL.GUI.UC.UC_cuenta_DT_ADMIN();
-            this.uC_inicio1 = new Beta3_WS_PROYECTO_FINAL.GUI.UC.UC_inicio();
+            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.Panel_top_main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bim_logUS_main)).BeginInit();
@@ -480,80 +474,15 @@
             this.bunifuElipse1.ElipseRadius = 9;
             this.bunifuElipse1.TargetControl = this.btn_iniciar_sesion;
             // 
-            // uC_partidos1
-            // 
-            this.uC_partidos1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_partidos1.Location = new System.Drawing.Point(0, 108);
-            this.uC_partidos1.Name = "uC_partidos1";
-            this.uC_partidos1.Size = new System.Drawing.Size(1230, 490);
-            this.uC_partidos1.TabIndex = 5;
-            // 
-            // uC_estadisticas1
-            // 
-            this.uC_estadisticas1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_estadisticas1.Location = new System.Drawing.Point(0, 108);
-            this.uC_estadisticas1.Name = "uC_estadisticas1";
-            this.uC_estadisticas1.Size = new System.Drawing.Size(1230, 490);
-            this.uC_estadisticas1.TabIndex = 4;
-            // 
-            // uC_equipos1
-            // 
-            this.uC_equipos1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("uC_equipos1.BackgroundImage")));
-            this.uC_equipos1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.uC_equipos1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_equipos1.Location = new System.Drawing.Point(0, 108);
-            this.uC_equipos1.Name = "uC_equipos1";
-            this.uC_equipos1.Size = new System.Drawing.Size(1230, 490);
-            this.uC_equipos1.TabIndex = 3;
-            // 
-            // uC_convocatorias1
-            // 
-            this.uC_convocatorias1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("uC_convocatorias1.BackgroundImage")));
-            this.uC_convocatorias1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.uC_convocatorias1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_convocatorias1.Location = new System.Drawing.Point(0, 108);
-            this.uC_convocatorias1.Name = "uC_convocatorias1";
-            this.uC_convocatorias1.Size = new System.Drawing.Size(1230, 490);
-            this.uC_convocatorias1.TabIndex = 2;
-            // 
-            // uC_calendario1
-            // 
-            this.uC_calendario1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_calendario1.Location = new System.Drawing.Point(0, 108);
-            this.uC_calendario1.Name = "uC_calendario1";
-            this.uC_calendario1.Size = new System.Drawing.Size(1230, 490);
-            this.uC_calendario1.TabIndex = 6;
-            // 
-            // uC_cuenta_DT_ADMIN1
-            // 
-            this.uC_cuenta_DT_ADMIN1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_cuenta_DT_ADMIN1.Location = new System.Drawing.Point(0, 108);
-            this.uC_cuenta_DT_ADMIN1.Name = "uC_cuenta_DT_ADMIN1";
-            this.uC_cuenta_DT_ADMIN1.Size = new System.Drawing.Size(1230, 490);
-            this.uC_cuenta_DT_ADMIN1.TabIndex = 7;
-            // 
-            // uC_inicio1
-            // 
-            this.uC_inicio1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("uC_inicio1.BackgroundImage")));
-            this.uC_inicio1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.uC_inicio1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_inicio1.Location = new System.Drawing.Point(0, 108);
-            this.uC_inicio1.Name = "uC_inicio1";
-            this.uC_inicio1.Size = new System.Drawing.Size(1230, 490);
-            this.uC_inicio1.TabIndex = 8;
+           
+            
             // 
             // frm_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1230, 598);
-            this.Controls.Add(this.uC_inicio1);
-            this.Controls.Add(this.uC_cuenta_DT_ADMIN1);
-            this.Controls.Add(this.uC_calendario1);
-            this.Controls.Add(this.uC_partidos1);
-            this.Controls.Add(this.uC_estadisticas1);
-            this.Controls.Add(this.uC_equipos1);
-            this.Controls.Add(this.uC_convocatorias1);
+            
             this.Controls.Add(this.Panel_top_main);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -600,13 +529,7 @@
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
         private Bunifu.Framework.UI.BunifuFlatButton btn_iniciar_sesion;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private GUI.UC.UC_convocatorias uC_convocatorias1;
-        private GUI.UC.UC_equipos uC_equipos1;
-        private GUI.UC.UC_estadisticas uC_estadisticas1;
-        private GUI.UC.UC_partidos uC_partidos1;
-        private GUI.UC.UC_calendario uC_calendario1;
-        private GUI.UC.UC_cuenta_DT_ADMIN uC_cuenta_DT_ADMIN1;
-        private GUI.UC.UC_inicio uC_inicio1;
+        
         private System.Windows.Forms.Label lbl_nombreUS_main;
     }
 }

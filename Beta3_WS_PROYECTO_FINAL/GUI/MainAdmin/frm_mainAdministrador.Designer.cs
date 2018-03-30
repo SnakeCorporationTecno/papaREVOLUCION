@@ -40,7 +40,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btn_minimizar_main = new System.Windows.Forms.Button();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.uC_cuenta_administrador1 = new Beta3_WS_PROYECTO_FINAL.GUI.UC.UC_cuenta_administrador();
             this.Panel_top_main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -238,20 +237,13 @@
             this.bunifuElipse1.ElipseRadius = 9;
             this.bunifuElipse1.TargetControl = this.btn_iniciar_sesion;
             // 
-            // uC_cuenta_administrador1
-            // 
-            this.uC_cuenta_administrador1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_cuenta_administrador1.Location = new System.Drawing.Point(0, 108);
-            this.uC_cuenta_administrador1.Name = "uC_cuenta_administrador1";
-            this.uC_cuenta_administrador1.Size = new System.Drawing.Size(1230, 490);
-            this.uC_cuenta_administrador1.TabIndex = 3;
+            
             // 
             // frm_mainAdministrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1230, 598);
-            this.Controls.Add(this.uC_cuenta_administrador1);
             this.Controls.Add(this.Panel_top_main);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -276,6 +268,5 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btn_minimizar_main;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private UC.UC_cuenta_administrador uC_cuenta_administrador1;
     }
 }

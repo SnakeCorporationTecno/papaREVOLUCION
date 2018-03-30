@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Beta3_WS_PROYECTO_FINAL.BO;
 using Beta3_WS_PROYECTO_FINAL.DAO;
+using Beta3_WS_PROYECTO_FINAL.GUI.MainAdmin;
+using Beta3_WS_PROYECTO_FINAL.GUI;
 
 namespace Beta3_WS_PROYECTO_FINAL.GUI.MainAdmin
 {
@@ -37,8 +39,8 @@ namespace Beta3_WS_PROYECTO_FINAL.GUI.MainAdmin
 
         private void btn_reArb_vArb_Click(object sender, EventArgs e)
         {
-            frm_AgregarAbitro obj = new frm_AgregarAbitro();
-            obj.ShowDialog();
+            frm_AgregarAbitro objRegArbit = new frm_AgregarAbitro();
+            objRegArbit.ShowDialog();
         }
         private void seleccionar_arbitro(object sender, DataGridViewCellMouseEventArgs e)
         {

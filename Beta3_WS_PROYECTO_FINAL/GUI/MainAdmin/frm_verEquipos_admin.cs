@@ -16,5 +16,17 @@ namespace Beta3_WS_PROYECTO_FINAL.GUI.MainAdmin
         {
             InitializeComponent();
         }
+
+        private void bunifuFlatButton4_Click(object sender, EventArgs e)
+        {
+            frm_agregar_equipos_DT_Admin objAddEquipo = new frm_agregar_equipos_DT_Admin();
+            objAddEquipo.ShowDialog();
+        }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            frm_verEquipo objverEquipo = new frm_verEquipo();
+            objverEquipo.ShowDialog();
+        }
     }
 }

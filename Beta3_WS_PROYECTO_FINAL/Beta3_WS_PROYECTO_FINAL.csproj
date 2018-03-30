@@ -92,6 +92,12 @@
     <Compile Include="DAO\cls_instalacionesDAO.cs" />
     <Compile Include="DAO\cls_partidosDAO.cs" />
     <Compile Include="DAO\cls_personaDAO.cs" />
+    <Compile Include="GUI\frm_agregar_equipos_DT_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_agregar_equipos_DT_Admin.Designer.cs">
+      <DependentUpon>frm_agregar_equipos_DT_Admin.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\frm_principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,24 @@
     </Compile>
     <Compile Include="GUI\frm_login.Designer.cs">
       <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_RegistrarDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_RegistrarDT.Designer.cs">
+      <DependentUpon>frm_RegistrarDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_RegistrarDT_US.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_RegistrarDT_US.Designer.cs">
+      <DependentUpon>frm_RegistrarDT_US.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_RegistrarDT_US2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_RegistrarDT_US2.Designer.cs">
+      <DependentUpon>frm_RegistrarDT_US2.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\frm_registroPersona.cs">
       <SubType>Form</SubType>
@@ -127,6 +151,12 @@
     </Compile>
     <Compile Include="GUI\frm_registro_jugador.Designer.cs">
       <DependentUpon>frm_registro_jugador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_verEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_verEquipo.Designer.cs">
+      <DependentUpon>frm_verEquipo.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\MainAdmin\frm_AgregarAbitro.cs">
       <SubType>Form</SubType>
@@ -181,18 +211,6 @@
     </Compile>
     <Compile Include="GUI\MainAdmin\RegAdmin\Reg_AdminUs.Designer.cs">
       <DependentUpon>Reg_AdminUs.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\MainAdmin\RegDT\frm_RegDT.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\MainAdmin\RegDT\frm_RegDT.Designer.cs">
-      <DependentUpon>frm_RegDT.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\MainAdmin\RegDT\frm_RegDT_US.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\MainAdmin\RegDT\frm_RegDT_US.Designer.cs">
-      <DependentUpon>frm_RegDT_US.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\MainAdmin\RegOrg\frm_RegOrg.cs">
       <SubType>Form</SubType>
@@ -256,11 +274,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\frm_agregar_equipos_DT_Admin.resx">
+      <DependentUpon>frm_agregar_equipos_DT_Admin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_principal.resx">
       <DependentUpon>frm_principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_login.resx">
       <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_RegistrarDT.resx">
+      <DependentUpon>frm_RegistrarDT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_RegistrarDT_US.resx">
+      <DependentUpon>frm_RegistrarDT_US.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_RegistrarDT_US2.resx">
+      <DependentUpon>frm_RegistrarDT_US2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_registroPersona.resx">
       <DependentUpon>frm_registroPersona.cs</DependentUpon>
@@ -273,6 +303,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_registro_jugador.resx">
       <DependentUpon>frm_registro_jugador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_verEquipo.resx">
+      <DependentUpon>frm_verEquipo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\MainAdmin\frm_AgregarAbitro.resx">
       <DependentUpon>frm_AgregarAbitro.cs</DependentUpon>
@@ -300,12 +333,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\MainAdmin\RegAdmin\Reg_AdminUs.resx">
       <DependentUpon>Reg_AdminUs.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\MainAdmin\RegDT\frm_RegDT.resx">
-      <DependentUpon>frm_RegDT.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\MainAdmin\RegDT\frm_RegDT_US.resx">
-      <DependentUpon>frm_RegDT_US.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\MainAdmin\RegOrg\frm_RegOrg.resx">
       <DependentUpon>frm_RegOrg.cs</DependentUpon>

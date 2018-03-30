@@ -103,6 +103,7 @@
             this.btn_reDT_vDT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_reDT_vDT.Textcolor = System.Drawing.Color.White;
             this.btn_reDT_vDT.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_reDT_vDT.Click += new System.EventHandler(this.btn_reDT_vDT_Click);
             // 
             // btn_editDT_vDT
             // 
@@ -441,6 +442,7 @@
             this.btn_changeUsPass_VerDT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_changeUsPass_VerDT.Textcolor = System.Drawing.Color.White;
             this.btn_changeUsPass_VerDT.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_changeUsPass_VerDT.Click += new System.EventHandler(this.btn_changeUsPass_VerDT_Click);
             // 
             // bunifuElipse4
             // 
