@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.btn_cerrar_VerEquipos = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_equipo = new System.Windows.Forms.DataGridView();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_equipo)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_cerrar_VerEquipos
@@ -74,15 +74,15 @@
             this.btn_cerrar_VerEquipos.Textcolor = System.Drawing.Color.DimGray;
             this.btn_cerrar_VerEquipos.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
             // 
-            // dataGridView1
+            // dgv_equipo
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.HighlightText;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(1, 32);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(809, 327);
-            this.dataGridView1.TabIndex = 23;
+            this.dgv_equipo.BackgroundColor = System.Drawing.SystemColors.HighlightText;
+            this.dgv_equipo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgv_equipo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_equipo.Location = new System.Drawing.Point(1, 32);
+            this.dgv_equipo.Name = "dgv_equipo";
+            this.dgv_equipo.Size = new System.Drawing.Size(809, 327);
+            this.dgv_equipo.TabIndex = 23;
             // 
             // bunifuFlatButton1
             // 
@@ -229,13 +229,13 @@
             this.Controls.Add(this.bunifuFlatButton3);
             this.Controls.Add(this.bunifuFlatButton2);
             this.Controls.Add(this.bunifuFlatButton1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_equipo);
             this.Controls.Add(this.btn_cerrar_VerEquipos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_verEquipos_admin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_verEquipos_admin";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_equipo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -243,7 +243,7 @@
         #endregion
 
         private Bunifu.Framework.UI.BunifuFlatButton btn_cerrar_VerEquipos;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_equipo;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton3;
