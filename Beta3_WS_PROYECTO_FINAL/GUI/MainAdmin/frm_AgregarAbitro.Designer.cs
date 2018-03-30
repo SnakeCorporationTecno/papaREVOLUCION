@@ -243,6 +243,7 @@
             this.btn_registrarpersona_registroArb.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_registrarpersona_registroArb.Textcolor = System.Drawing.Color.White;
             this.btn_registrarpersona_registroArb.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_registrarpersona_registroArb.Click += new System.EventHandler(this.btn_registrarpersona_registroArb_Click);
             // 
             // bunifuElipse1
             // 

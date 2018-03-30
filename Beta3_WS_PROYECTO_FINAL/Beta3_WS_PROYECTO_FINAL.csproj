@@ -90,6 +90,7 @@
     <Compile Include="DAO\cls_divisionDAO.cs" />
     <Compile Include="DAO\cls_equipoDAO.cs" />
     <Compile Include="DAO\cls_instalacionesDAO.cs" />
+    <Compile Include="DAO\cls_partidosDAO.cs" />
     <Compile Include="DAO\cls_personaDAO.cs" />
     <Compile Include="GUI\frm_principal.cs">
       <SubType>Form</SubType>
