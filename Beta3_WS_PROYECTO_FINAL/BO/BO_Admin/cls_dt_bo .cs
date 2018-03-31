@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Beta3_WS_PROYECTO_FINAL.BO
 {
-    public class cls_personaBO
+    public class cls_dt_bo
     {
         private int matricula_persona;
         private string nombre_persona;
         private string apePat_persona;
         private string apeMar_persona;
         private string correoElect_persona;
-        private int telefono_persona;
-        private double genero_persona;
+        private string telefono_persona;
+        
         private int tipo_persona;
         private int id_usuario;
         private int id_equipo;
-        private int id_convocatoria;
+       
 
         public int Matricula_persona
         {
@@ -85,7 +85,7 @@ namespace Beta3_WS_PROYECTO_FINAL.BO
             }
         }
 
-        public int Telefono_persona
+        public string Telefono_persona
         {
             get
             {
@@ -98,18 +98,7 @@ namespace Beta3_WS_PROYECTO_FINAL.BO
             }
         }
 
-        public double Genero_persona
-        {
-            get
-            {
-                return genero_persona;
-            }
-
-            set
-            {
-                genero_persona = value;
-            }
-        }
+       
 
         public int Tipo_persona
         {
@@ -150,17 +139,6 @@ namespace Beta3_WS_PROYECTO_FINAL.BO
             }
         }
 
-        public int Id_convocatoria
-        {
-            get
-            {
-                return id_convocatoria;
-            }
-
-            set
-            {
-                id_convocatoria = value;
-            }
-        }
+       
     }
 }
