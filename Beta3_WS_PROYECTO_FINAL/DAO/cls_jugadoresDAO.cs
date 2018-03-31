@@ -36,6 +36,6 @@ namespace Beta3_WS_PROYECTO_FINAL.DAO
         {
             string ComandoSQL = string.Format("DELETE FROM jugadores WHERE matricula={0}", obj_jug.Matricula_jugadorM);
             return Miconexion.EjecutarComando(ComandoSQL);
-        }
+        }//
     }
 }
