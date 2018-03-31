@@ -93,6 +93,7 @@
     <Compile Include="DAO\cls_equipoDAO.cs" />
     <Compile Include="DAO\cls_estadisticasDAO.cs" />
     <Compile Include="DAO\cls_instalacionesDAO.cs" />
+    <Compile Include="DAO\cls_jugadoresDAO.cs" />
     <Compile Include="DAO\cls_partidosDAO.cs" />
     <Compile Include="DAO\cls_dt_dao.cs" />
     <Compile Include="DAO\cls_torneoDAO.cs" />
