@@ -12,8 +12,7 @@ namespace Beta3_WS_PROYECTO_FINAL.BO
         private string nombre_arbitro;
         private string apePat_arbitro;
         private string apeMat_arbitro;
-        private bool genero_arbitro;
-
+      
         public int Id_arbitro
         {
             get
@@ -66,17 +65,7 @@ namespace Beta3_WS_PROYECTO_FINAL.BO
             }
         }
 
-        public bool Genero_arbitro
-        {
-            get
-            {
-                return genero_arbitro;
-            }
-
-            set
-            {
-                genero_arbitro = value;
-            }
-        }
+        
+       
     }
 }

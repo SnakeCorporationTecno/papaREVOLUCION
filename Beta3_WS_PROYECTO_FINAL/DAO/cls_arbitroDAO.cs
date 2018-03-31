@@ -27,12 +27,12 @@ namespace Beta3_WS_PROYECTO_FINAL.DAO
         }
         public int AgregarArbitro(cls_arbitroBO obj_arbitro)
         {
-            string ComandoSQL = string.Format("INSERT INTO arbitro(idarbitro,Nombre,Apelido_Paterno,Apelido_Materno,Genero) VALUES ({0},'{1}','{2}','{3}',{4});", obj_arbitro.Id_arbitro,obj_arbitro.Nombre_arbitro,obj_arbitro.ApePat_arbitro,obj_arbitro.ApeMat_arbitro,obj_arbitro.Genero_arbitro);
+            string ComandoSQL = string.Format("INSERT INTO arbitro(idarbitro,Nombre,Apelido_Paterno,Apelido_Materno) VALUES ({0},'{1}','{2}','{3}');", obj_arbitro.Id_arbitro,obj_arbitro.Nombre_arbitro,obj_arbitro.ApePat_arbitro,obj_arbitro.ApeMat_arbitro);
             return Miconexion.EjecutarComando(ComandoSQL);
         }
         public int ModificarArbitro(cls_arbitroBO obj_arbitro)
         {
-            string ComandoSQL = string.Format("UPDATE arbitro SET Nombre='{1}', Apelido_Paterno='{2}',Apelido_Materno='{3}',Genero={4} WHERE idarbitro={0}", obj_arbitro.Id_arbitro, obj_arbitro.Nombre_arbitro, obj_arbitro.ApePat_arbitro, obj_arbitro.ApeMat_arbitro, obj_arbitro.Genero_arbitro);
+            string ComandoSQL = string.Format("UPDATE arbitro SET Nombre='{1}', Apelido_Paterno='{2}',Apelido_Materno='{3}', WHERE idarbitro={0}", obj_arbitro.Id_arbitro, obj_arbitro.Nombre_arbitro, obj_arbitro.ApePat_arbitro, obj_arbitro.ApeMat_arbitro,);
             return Miconexion.EjecutarComando(ComandoSQL);
         }
         public int EliminarArbitro(cls_arbitroBO obj_arbitro)

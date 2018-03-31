@@ -14,7 +14,6 @@ namespace Beta3_WS_PROYECTO_FINAL.BO
         private string apeMar_persona;
         private string correoElect_persona;
         private int telefono_persona;
-        private double genero_persona;
         private int tipo_persona;
         private int id_usuario;
         private int convocatoria;
@@ -98,18 +97,6 @@ namespace Beta3_WS_PROYECTO_FINAL.BO
             }
         }
 
-        public double Genero_persona
-        {
-            get
-            {
-                return genero_persona;
-            }
-
-            set
-            {
-                genero_persona = value;
-            }
-        }
 
         public int Tipo_persona
         {
